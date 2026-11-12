@@ -21,11 +21,17 @@ export interface ApiResult<T> {
   data: T
 }
 
+export interface DbHealth {
+  status: string
+  error?: string
+}
+
 export interface HealthInfo {
   app: string
   status: string
   javaVersion: string
   timestamp: string
+  database: DbHealth
 }
 
 /** 后端自检接口（环境验证用） */

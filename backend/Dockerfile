@@ -1,11 +1,11 @@
 # 后端镜像：多阶段构建（Maven 编译 → JRE 运行）
-# 首次构建需联网下载依赖，后续依赖走本地 ~/.m2（见 docker/README.md）
+# 容器内使用 backend/maven-settings.xml（阿里云镜像），避免直连 Maven Central 超时
 
 # ---------- 构建阶段 ----------
 FROM maven:3.9-eclipse-temurin-17 AS build
 WORKDIR /build
 COPY . .
-RUN mvn -B -q -DskipTests package
+RUN mvn -s maven-settings.xml -B -q -DskipTests package
 
 # ---------- 运行阶段 ----------
 FROM eclipse-temurin:17-jre

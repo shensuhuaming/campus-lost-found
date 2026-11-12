@@ -93,6 +93,14 @@ const environments = [
           <el-descriptions v-if="backendInfo" :column="1" size="small" border class="mt12">
             <el-descriptions-item label="服务">{{ backendInfo.app }}</el-descriptions-item>
             <el-descriptions-item label="JDK">{{ backendInfo.javaVersion }}</el-descriptions-item>
+            <el-descriptions-item label="数据库">
+              <el-tag
+                size="small"
+                :type="backendInfo.database?.status === 'UP' ? 'success' : 'danger'"
+              >
+                {{ backendInfo.database?.status ?? 'UNKNOWN' }}
+              </el-tag>
+            </el-descriptions-item>
             <el-descriptions-item label="时间">{{ backendInfo.timestamp }}</el-descriptions-item>
           </el-descriptions>
           <p v-if="backend === 'fail'" class="error">{{ backendError }}</p>
@@ -104,7 +112,7 @@ const environments = [
         <el-card shadow="never">
           <template #header><b>环境速查</b></template>
           <el-table :data="environments" size="small" :show-header="false">
-            <el-table-column prop="name" label="环境" width="180" />
+            <el-table-column prop="name" label="环境" width="210" />
             <el-table-column>
               <template #default="{ row }">
                 <div class="mono">{{ row.cmd }}</div>

@@ -39,6 +39,13 @@ docker compose --profile full up -d --build
 ```
 
 > 首次构建需要下载 Maven / npm 依赖与基础镜像，耗时较长属正常现象。
+>
+> **镜像拉取慢/失败**（本机实测 Docker Hub 直连会超时）：可先用镜像站拉取再打回官方标签，例如
+> ```bash
+> docker pull docker.m.daocloud.io/library/nginx:1.27-alpine
+> docker tag  docker.m.daocloud.io/library/nginx:1.27-alpine nginx:1.27-alpine
+> ```
+> 需要的基础镜像：`mysql:8.0`、`eclipse-temurin:17-jre`、`maven:3.9-eclipse-temurin-17`、`node:22-alpine`、`nginx:1.27-alpine`。
 
 停止与重置：
 
@@ -53,7 +60,9 @@ docker compose --profile full down -v       # 彻底重置（删除数据卷，�
 2. **Project SDK 选 JDK 17**（本机路径：`G:\develop\jdks\jdk17\ms-17.0.18`）；
    ⚠️ 本机 `JAVA_HOME` 默认指向 Java 21，务必在 IDEA 里显式指定 17。
 3. 先只起数据库：`docker compose up -d mysql`；
-4. 运行 `LostFoundApplication`，访问 `http://localhost:8080/api/system/health`。
+4. 运行 `LostFoundApplication`，访问 `http://localhost:8080/api/system/health`；
+   正常返回：`{"code":0,...,"data":{"status":"UP","database":{"status":"UP"}}}`。
+   本机默认连接 `localhost:3307`（用户 `clf` / 密码 `change-me`，见 `.env`）。
 
 > **Maven 注意**：本机 `Maven 安装目录\conf\settings.xml` 把 `localRepository` 指向了
 > `G:\develop\apache-maven-3.9.12-bin\...\mvn_repo`，该目录对当前用户只读，会导致构建报
