@@ -70,8 +70,19 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
+                <configuration>
+                    <!--
+                      重要：exec 文件不能放在含中文的工程路径下。
+                      Windows 上 surefire 通过 cmd.exe 传参时非 ASCII 路径会被替换成 '?'，
+                      导致 agent 写不出数据（表现为 "missing execution data file"）。
+                      因此放到系统临时目录（纯 ASCII），文件名带项目前缀避免冲突。
+                    -->
+                    <destFile>${java.io.tmpdir}/jacoco-campus-lost-found.exec</destFile>
+                    <dataFile>${java.io.tmpdir}/jacoco-campus-lost-found.exec</dataFile>
+                </configuration>
                 <executions>
                     <execution>
+                        <id>prepare-agent</id>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
@@ -84,6 +95,14 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <!-- 用 @{argLine} 延迟绑定 JaCoCo 注入的 agent 参数，避免被插件覆盖 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <argLine>@{argLine} -Dfile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8</argLine>
+                </configuration>
             </plugin>
         </plugins>
     </build>

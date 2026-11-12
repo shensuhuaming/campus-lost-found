@@ -145,10 +145,12 @@ campus-lost-found/
 
 - Docker Compose 编排（MySQL 3307 / 后端 8080 / 前端 80），三套环境（dev / test / demo）；
 - MySQL 建表基线脚本（7 张表 + 6 个分类种子数据），字段来自需求 V1.0 数据字典；
-- Spring Boot 骨架：统一响应体、全局异常、跨域、健康检查；
-- Vue 3 + Element Plus 骨架：首页环境自检面板，展示后端连通性与模块清单；
-- JUnit 5 切片测试示例、JaCoCo 覆盖率插件、GitHub Actions CI；
+- Spring Boot 骨架：统一响应体、全局异常、跨域、健康检查（含数据库连通性）；
+- Vue 3 + Element Plus 骨架：首页环境自检面板，展示后端/数据库连通性与模块清单；
+- JUnit 5 切片测试示例、JaCoCo 覆盖率（`mvn verify` 出报表）、GitHub Actions CI；
 - `.gitignore`、`.editorconfig`、环境变量模板。
+
+> Docker 全栈已验证可跑：`docker compose --profile full up -d --build` 后访问 `http://localhost` 可见首页自检为「后端 UP / 数据库 UP」。
 
 ⏳ 待设计文档确认后实现：
 
