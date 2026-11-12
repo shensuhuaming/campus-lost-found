@@ -1,0 +1,60 @@
+# ---- 后端 Spring Boot / Maven ----
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+*.class
+*.jar
+*.war
+*.log
+logs/
+hs_err_pid*
+
+# ---- 前端 Vue / Vite / Node ----
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ---- 环境变量与密钥（严禁入库） ----
+.env
+.env.*
+!.env.example
+application-local.yml
+application-dev-local.yml
+*.pem
+*.key
+
+# ---- Docker / 运行时数据 ----
+docker/data/
+db/data/
+uploads/
+data/
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 本地构建临时目录 ----
+.tmp/
+*.tsbuildinfo
+
+# ---- 其他 ----
+*.tmp
+*.bak
+.gradle/
