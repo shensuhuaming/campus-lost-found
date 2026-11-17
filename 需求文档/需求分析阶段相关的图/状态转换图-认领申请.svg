@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500" font-family="Microsoft YaHei, SimHei, sans-serif">
+<style>text{fill:#222}.edge{stroke:#333;stroke-width:1.4}.state{fill:#fff;stroke:#333;stroke-width:1.4}</style>
+<circle cx="170" cy="128" r="10" fill="#333"/>
+<line class="edge" x1="180" y1="128" x2="280" y2="128"/>
+<polygon class="edge" fill="#333" stroke="none" stroke-width="0" points="280,128 270.64,131.52 270.64,124.48"/>
+<polyline class="edge" fill="none" points="340,186 340,240 210,240 210,300"/>
+<polygon class="edge" fill="#333" stroke="none" stroke-width="0" points="210,300 206.48,290.64 213.52,290.64"/>
+<polyline class="edge" fill="none" points="480,186 480,240 680,240 680,300"/>
+<polygon class="edge" fill="#333" stroke="none" stroke-width="0" points="680,300 676.48,290.64 683.52,290.64"/>
+<text font-size="14" text-anchor="middle" x="275" y="227">管理员核验通过</text>
+<text font-size="14" text-anchor="middle" x="580" y="227">管理员核验不通过（附理由）</text>
+<rect class="state" x="280" y="90" width="260" height="96" rx="16"/>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="410" y="132.33">待核验</text>
+<text font-size="14" text-anchor="middle" x="410" y="153.33">do/通知物品发布者</text>
+<rect class="state" x="80" y="300" width="260" height="96" rx="16"/>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="210" y="342.33">通过</text>
+<text font-size="14" text-anchor="middle" x="210" y="363.33">do/物品置为已归还，通知申请人</text>
+<rect class="state" x="550" y="300" width="260" height="96" rx="16"/>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="680" y="342.33">拒绝</text>
+<text font-size="14" text-anchor="middle" x="680" y="363.33">do/通知申请人拒绝理由</text>
+<text font-size="13" text-anchor="middle" x="400" y="459.6">注：状态框内 do/xxx 为状态内的活动；箭头上的文字为触发状态转换的事件。</text>
+</svg>

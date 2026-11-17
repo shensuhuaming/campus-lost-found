@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="state" name="状态转换图">
+    <mxGraphModel dx="900" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="880" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="118" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="tr0" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="128" as="sourcePoint"/>
+            <mxPoint x="280" y="128" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tr1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="186" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="340" y="240"/>
+              <mxPoint x="210" y="240"/>
+            </Array>
+            <mxPoint x="210" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl1" value="管理员核验通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" vertex="1" parent="1">
+          <mxGeometry x="226" y="210" width="98" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="tr2" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="186" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="480" y="240"/>
+              <mxPoint x="680" y="240"/>
+            </Array>
+            <mxPoint x="680" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl2" value="管理员核验不通过（附理由）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" vertex="1" parent="1">
+          <mxGeometry x="489" y="210" width="182" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="q0" value="待核验&amp;#10;do/通知物品发布者" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="260" height="96" as="geometry"/>
+        </mxCell>
+        <mxCell id="q1" value="通过&amp;#10;do/物品置为已归还，通知申请人" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="260" height="96" as="geometry"/>
+        </mxCell>
+        <mxCell id="q2" value="拒绝&amp;#10;do/通知申请人拒绝理由" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="260" height="96" as="geometry"/>
+        </mxCell>
+        <mxCell id="note" value="注：状态框内 do/xxx 为状态内的活动；箭头上的文字为触发状态转换的事件。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Microsoft YaHei;" vertex="1" parent="1">
+          <mxGeometry x="174" y="445" width="452" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

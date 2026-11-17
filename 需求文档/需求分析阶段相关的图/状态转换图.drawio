@@ -1,0 +1,119 @@
+<mxfile host="Electron" pages="2">
+  <diagram id="state" name="状态转换图">
+    <mxGraphModel dx="2909" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="880" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="-410" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="tr0" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-390" y="78" as="sourcePoint" />
+            <mxPoint x="-290" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tr1" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="126" as="sourcePoint" />
+            <mxPoint x="-170" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" value="审核通过" vertex="1">
+          <mxGeometry height="24" width="56" x="-160" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="tr2" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="78" as="sourcePoint" />
+            <mxPoint x="120" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" value="审核驳回" vertex="1">
+          <mxGeometry height="24" width="56" x="7" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="tr3" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="35" y="100" />
+              <mxPoint x="35" y="280" />
+            </Array>
+            <mxPoint x="-50" y="100" as="sourcePoint" />
+            <mxPoint x="120" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" value="发布者撤回" vertex="1">
+          <mxGeometry height="24" width="70" x="45" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="tr4" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="370" as="sourcePoint" />
+            <mxPoint x="-170" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl4" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" value="收到认领申请（拾物）&amp;#10;或已联系拾到者（寻物）" vertex="1">
+          <mxGeometry height="44" width="154" x="-153" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="tr5" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="310" as="sourcePoint" />
+            <mxPoint x="120" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" value="发布者或管理员关闭" vertex="1">
+          <mxGeometry height="24" width="126" x="-28" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tr6" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="518" as="sourcePoint" />
+            <mxPoint x="120" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl6" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" value="管理员核验通过" vertex="1">
+          <mxGeometry height="24" width="98" x="-14" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="loop" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=10;startArrow=none;strokeWidth=1.4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="518" />
+              <mxPoint x="-360" y="310" />
+            </Array>
+            <mxPoint x="-290" y="518" as="sourcePoint" />
+            <mxPoint x="-290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="looplabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Microsoft YaHei;" value="核验不通过&amp;#10;或认领者放弃" vertex="1">
+          <mxGeometry height="44" width="84" x="-490" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="s0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" value="待审核&amp;#10;do/等待管理员审核" vertex="1">
+          <mxGeometry height="96" width="240" x="-290" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" value="进行中&amp;#10;do/前台展示&amp;#10;（寻物=寻物中，拾物=待认领）" vertex="1">
+          <mxGeometry height="120" width="240" x="-290" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" value="处理中&amp;#10;do/等待管理员核验认领" vertex="1">
+          <mxGeometry height="96" width="240" x="-290" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" value="已驳回&amp;#10;do/通知发布者驳回理由" vertex="1">
+          <mxGeometry height="96" width="240" x="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" value="已关闭" vertex="1">
+          <mxGeometry height="96" width="240" x="120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Microsoft YaHei;" value="已完成&amp;#10;do/标记已归还/已找回" vertex="1">
+          <mxGeometry height="96" width="240" x="120" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Microsoft YaHei;" value="注：状态框内 do/xxx 为状态内的活动；箭头上的文字为触发状态转换的事件。" vertex="1">
+          <mxGeometry height="20" width="452" x="-251" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FQiudRXNsxysYjbehK_Y" name="第 2 页">
+    <mxGraphModel dx="1193" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
