@@ -7,8 +7,15 @@
 
 ## [Unreleased]
 
+### 新增
+- 用户认证模块 U1.1~U1.3：`POST /api/auth/register`、`POST /api/auth/login`（JWT，12 小时）、`POST /api/auth/logout`
+- 公共基座：`Result`/`ResultCode`（21 个业务码 + HTTP 映射）、`BusinessException`、全局异常处理按错误码返回
+- JWT 鉴权拦截器：校验签名/有效期 + 查库校验禁用状态，写入 ThreadLocal；`SecurityUtil` 提供当前用户
+- `DataInitializer` 启动时幂等创建管理员（口令来自 `ADMIN_INIT_PASSWORD`）
+- 单元测试 24 个：注册/登录/退出/拦截器/JWT/接口校验
+
 ### 变更（需注意）
-- **破坏性**：统一响应的成功码由 `0` 改为 `200`（对齐《API接口详细规格》1.2），错误码为 1xxx~9999，HTTP 状态按类型返回
+- **破坏性**：`ApiResponse` 已替换为 `Result`，成功码 `200`（对齐《API接口详细规格》1.2），错误码为 1xxx~9999，HTTP 状态按类型返回
 - **破坏性**：数据库名改为 `lost_found`、排序规则 `utf8mb4_general_ci`；`db/init/01-schema.sql` 直接同步《详细设计》的 `lost_found.sql`，删除重复的 `02-seed.sql`
 - `lost_item` 新增 `close_reason`（关闭/下架理由，管理员必填），`phone` 放宽为 5~20 位联系方式
 - 新增接口：`PUT /api/items/{id}/status`（寻物状态推进）、`GET /api/categories`（公开分类）
