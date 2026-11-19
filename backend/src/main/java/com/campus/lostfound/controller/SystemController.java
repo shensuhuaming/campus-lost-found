@@ -1,6 +1,6 @@
 package com.campus.lostfound.controller;
 
-import com.campus.lostfound.common.ApiResponse;
+import com.campus.lostfound.common.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -36,14 +36,14 @@ public class SystemController {
     }
 
     @GetMapping("/health")
-    public ApiResponse<Map<String, Object>> health() {
+    public Result<Map<String, Object>> health() {
         Map<String, Object> body = new LinkedHashMap<>();
         body.put("app", appName);
         body.put("status", "UP");
         body.put("javaVersion", System.getProperty("java.version"));
         body.put("timestamp", LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
         body.put("database", checkDatabase());
-        return ApiResponse.ok(body);
+        return Result.ok(body);
     }
 
     /** 数据库连通性：执行 SELECT 1；异常不抛出，避免自检接口本身返回 500。 */

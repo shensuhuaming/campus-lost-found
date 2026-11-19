@@ -179,6 +179,7 @@ campus-lost-found/
 - Vue 3 + Element Plus 骨架：首页环境自检面板，展示后端/数据库连通性与模块清单；
 - JUnit 5 切片测试示例、JaCoCo 覆盖率（`mvn verify` 出报表）、GitHub Actions CI；
 - `.gitignore`、`.editorconfig`、环境变量模板。
+- **用户认证**：`POST /api/auth/register`、`/login`（JWT 12h）、`/logout`；管理员启动自动创建（`admin` / `Admin@123`，`ADMIN_INIT_PASSWORD` 可覆盖）。
 
 > Docker 全栈已验证可跑：`docker compose --profile full up -d --build` 后访问 `http://localhost` 可见首页自检为「后端 UP / 数据库 UP」。
 
