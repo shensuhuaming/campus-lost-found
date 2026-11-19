@@ -181,6 +181,7 @@ campus-lost-found/
 - `.gitignore`、`.editorconfig`、环境变量模板。
 - **用户认证**：`POST /api/auth/register`、`/login`（JWT 12h）、`/logout`；管理员启动自动创建（`admin` / `Admin@123`，`ADMIN_INIT_PASSWORD` 可覆盖）。
 - **个人中心**：`GET/PUT /api/user/profile`、`PUT /api/user/password`、`GET /api/user/{items,claims,comments}`；前端 `/login` 注册登录、`/profile` 个人中心（未登录由路由守卫跳转）。
+- **失物信息与检索**：`POST /api/items`、`PUT /api/items/{id}`、`PUT /api/items/{id}/close`、`PUT /api/items/{id}/status`、`GET /api/items`、`GET /api/items/{id}`、`GET /api/categories`、`POST /api/upload/image`；前端 `/`（列表筛选搜索）、`/items/:id`（详情）、`/items/new`（发布）。
 
 > Docker 全栈已验证可跑：`docker compose --profile full up -d --build` 后访问 `http://localhost` 可见首页自检为「后端 UP / 数据库 UP」。
 

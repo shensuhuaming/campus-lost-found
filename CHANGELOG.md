@@ -8,6 +8,10 @@
 ## [Unreleased]
 
 ### 新增
+- 失物信息 M2：`POST /api/items` 发布（≤3 图，图片白名单+存在性+未引用校验）、`PUT /api/items/{id}` 编辑（仅进行中，编辑后重新审核）、`PUT /api/items/{id}/close` 关闭（管理员必须填理由，写 `close_reason`，待核验认领自动拒绝）、`PUT /api/items/{id}/status` 寻物状态推进、`POST /api/upload/image` 图片上传（类型/大小/文件头三重校验）
+- 浏览检索 M3：`GET /api/items` 列表（类型/分类/状态筛选、关键词搜索且标题命中优先、分页）、`GET /api/items/{id}` 详情（图片、发布者、留言前 10 条、我的认领状态、联系方式按登录态掩码）、`GET /api/categories` 公开分类
+- 前端：首页列表（筛选/搜索/卡片/分页）、详情页（图片预览、本人操作）、发布/编辑页（3 图上传）、个人中心发布管理与操作列
+- 单元测试新增 31 个（ItemService 20 / FileService 5 / ItemController 6），合计 73
 - 个人中心 U1.4~U1.6：`GET/PUT /api/user/profile`、`PUT /api/user/password`、`GET /api/user/{items,claims,comments}`（统一分页结构，列表补齐分类名/封面/认领数/物品标题）
 - 前端登录/注册页（`/login`）、个人中心页（`/profile`，5 个页签）、布局与导航；路由守卫按登录态拦截；axios 拦截器自动带 token、401 清登录态并跳转
 - 用户认证模块 U1.1~U1.3：`POST /api/auth/register`、`POST /api/auth/login`（JWT，12 小时）、`POST /api/auth/logout`

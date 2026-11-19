@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useAuthStore } from '@/stores/auth'
 import FrontLayout from '@/layouts/FrontLayout.vue'
-import DashboardView from '@/views/DashboardView.vue'
+import HomeView from '@/views/Home.vue'
+import ItemDetail from '@/views/ItemDetail.vue'
+import ItemEdit from '@/views/ItemEdit.vue'
 import LoginView from '@/views/Login.vue'
 import ProfileView from '@/views/Profile.vue'
 
@@ -18,7 +20,10 @@ const router = createRouter({
       path: '/',
       component: FrontLayout,
       children: [
-        { path: '', name: 'home', component: DashboardView },
+        { path: '', name: 'home', component: HomeView },
+        { path: 'items/new', name: 'itemNew', component: ItemEdit, meta: { requiresAuth: true } },
+        { path: 'items/:id', name: 'itemDetail', component: ItemDetail },
+        { path: 'items/:id/edit', name: 'itemEdit', component: ItemEdit, meta: { requiresAuth: true } },
         {
           path: 'profile',
           name: 'profile',
