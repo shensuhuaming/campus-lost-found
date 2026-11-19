@@ -1,11 +1,41 @@
 <script setup lang="ts">
-import { useRouter, RouterLink, RouterView } from 'vue-router'
+import { onMounted, onUnmounted, ref, watch } from 'vue'
+import { useRoute, useRouter, RouterLink, RouterView } from 'vue-router'
 import { ElMessage } from 'element-plus'
 import { logout as logoutApi } from '@/api/auth'
+import { unreadCount } from '@/api/message'
 import { useAuthStore } from '@/stores/auth'
 
 const auth = useAuthStore()
 const router = useRouter()
+const route = useRoute()
+
+const unread = ref(0)
+let timer: number | undefined
+
+async function refreshUnread() {
+  if (!auth.isLoggedIn) {
+    unread.value = 0
+    return
+  }
+  try {
+    unread.value = await unreadCount()
+  } catch {
+    // 未读数失败不影响页面
+  }
+}
+
+watch(() => route.fullPath, refreshUnread)
+watch(() => auth.isLoggedIn, refreshUnread)
+onMounted(() => {
+  refreshUnread()
+  timer = window.setInterval(refreshUnread, 60000)   // 详细设计 4.5.4：60 秒轮询
+})
+onUnmounted(() => {
+  if (timer) {
+    window.clearInterval(timer)
+  }
+})
 
 async function onLogout() {
   try {
@@ -26,6 +56,10 @@ async function onLogout() {
       <nav class="nav">
         <RouterLink to="/" class="nav-link">首页</RouterLink>
         <RouterLink v-if="auth.isLoggedIn" to="/items/new" class="nav-link">发布信息</RouterLink>
+        <RouterLink v-if="auth.isLoggedIn" to="/messages" class="nav-link">
+          消息
+          <el-badge v-if="unread > 0" :value="unread" :max="99" class="nav-badge" />
+        </RouterLink>
         <RouterLink v-if="auth.isAdmin" to="/admin/claims" class="nav-link">认领核验</RouterLink>
         <RouterLink v-if="auth.isLoggedIn" to="/profile" class="nav-link">个人中心</RouterLink>
       </nav>

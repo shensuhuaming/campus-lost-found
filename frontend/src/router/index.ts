@@ -6,6 +6,7 @@ import HomeView from '@/views/Home.vue'
 import ItemDetail from '@/views/ItemDetail.vue'
 import ItemEdit from '@/views/ItemEdit.vue'
 import AdminClaims from '@/views/AdminClaims.vue'
+import MessagesView from '@/views/Messages.vue'
 import LoginView from '@/views/Login.vue'
 import ProfileView from '@/views/Profile.vue'
 
@@ -26,6 +27,12 @@ const router = createRouter({
         { path: 'items/new', name: 'itemNew', component: ItemEdit, meta: { requiresAuth: true } },
         { path: 'items/:id', name: 'itemDetail', component: ItemDetail },
         { path: 'items/:id/edit', name: 'itemEdit', component: ItemEdit, meta: { requiresAuth: true } },
+        {
+          path: 'messages',
+          name: 'messages',
+          component: MessagesView,
+          meta: { requiresAuth: true },
+        },
         {
           path: 'profile',
           name: 'profile',

@@ -24,4 +24,13 @@ public enum MessageTypeEnum {
     public String getText() {
         return text;
     }
+
+    public static String textOf(Integer code) {
+        for (MessageTypeEnum e : values()) {
+            if (Integer.valueOf(e.code).equals(code)) {
+                return e.text;
+            }
+        }
+        return "";
+    }
 }
