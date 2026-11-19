@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import { advanceItem, closeItem, getItem, type ItemDetail } from '@/api/item'
+import { createClaim } from '@/api/claim'
 import { useAuthStore } from '@/stores/auth'
 
 const route = useRoute()
@@ -80,8 +81,35 @@ async function onClose() {
   }
 }
 
+const claimDialog = ref(false)
+const claimDesc = ref('')
+const claimLoading = ref(false)
+
 function onClaim() {
-  ElMessage.info('认领功能将在下一迭代开放')
+  if (!auth.isLoggedIn) {
+    router.push({ path: '/login', query: { redirect: route.fullPath } })
+    return
+  }
+  claimDesc.value = ''
+  claimDialog.value = true
+}
+
+async function submitClaim() {
+  if (claimDesc.value.trim().length === 0) {
+    ElMessage.warning('请填写认领说明')
+    return
+  }
+  claimLoading.value = true
+  try {
+    await createClaim(id.value, claimDesc.value.trim())
+    ElMessage.success('认领申请已提交，等待管理员核验')
+    claimDialog.value = false
+    await load()
+  } catch (e) {
+    ElMessage.error((e as Error).message)
+  } finally {
+    claimLoading.value = false
+  }
 }
 
 onMounted(load)
@@ -106,8 +134,9 @@ onMounted(load)
             {{ detail.itemStatus === 0 ? '已联系到拾到者' : '已找回' }}
           </el-button>
           <el-button v-if="canClose" size="small" type="danger" plain @click="onClose">关闭</el-button>
-          <el-button v-if="detail.type === 1 && detail.itemStatus === 0" size="small" type="warning" @click="onClaim">
-            认领
+          <el-button v-if="detail.type === 1 && detail.itemStatus === 0" size="small" type="warning"
+                     :disabled="detail.myClaimStatus !== null" @click="onClaim">
+            {{ detail.myClaimStatus === null ? '认领' : '已申请' }}
           </el-button>
         </div>
       </div>
@@ -153,5 +182,16 @@ onMounted(load)
         <div>{{ c.content }}</div>
       </div>
     </el-card>
+
+    <el-dialog v-model="claimDialog" title="发起认领" width="520px">
+      <el-alert type="info" :closable="false" show-icon
+                title="请描述只有失主才知道的细节（颜色、品牌、内含物等），管理员据此核验身份" />
+      <el-input v-model="claimDesc" type="textarea" :rows="4" maxlength="300" show-word-limit
+                class="mt12" placeholder="例如：内有一卡通，姓名与我一致，可提供学号核验" />
+      <template #footer>
+        <el-button @click="claimDialog = false">取消</el-button>
+        <el-button type="primary" :loading="claimLoading" @click="submitClaim">提交申请</el-button>
+      </template>
+    </el-dialog>
   </div>
 </template>
