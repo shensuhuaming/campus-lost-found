@@ -6,6 +6,7 @@ import HomeView from '@/views/Home.vue'
 import ItemDetail from '@/views/ItemDetail.vue'
 import ItemEdit from '@/views/ItemEdit.vue'
 import AdminClaims from '@/views/AdminClaims.vue'
+import AdminView from '@/views/Admin.vue'
 import MessagesView from '@/views/Messages.vue'
 import LoginView from '@/views/Login.vue'
 import ProfileView from '@/views/Profile.vue'
@@ -38,6 +39,30 @@ const router = createRouter({
           name: 'profile',
           component: ProfileView,
           meta: { requiresAuth: true },
+        },
+        {
+          path: 'admin',
+          name: 'adminStats',
+          component: AdminView,
+          meta: { requiresAuth: true, requiresAdmin: true },
+        },
+        {
+          path: 'admin/audit',
+          name: 'adminAudit',
+          component: AdminView,
+          meta: { requiresAuth: true, requiresAdmin: true },
+        },
+        {
+          path: 'admin/categories',
+          name: 'adminCategories',
+          component: AdminView,
+          meta: { requiresAuth: true, requiresAdmin: true },
+        },
+        {
+          path: 'admin/users',
+          name: 'adminUsers',
+          component: AdminView,
+          meta: { requiresAuth: true, requiresAdmin: true },
         },
         {
           path: 'admin/claims',

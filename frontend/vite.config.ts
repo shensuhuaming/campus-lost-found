@@ -22,5 +22,13 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     chunkSizeWarningLimit: 1200,
+    // 管理后台的 ECharts 单独成块，避免主包过大影响首屏（首页/详情页不加载图表代码）
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          echarts: ['echarts/core', 'echarts/charts', 'echarts/components', 'echarts/renderers'],
+        },
+      },
+    },
   },
 })
