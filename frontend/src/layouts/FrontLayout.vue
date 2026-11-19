@@ -60,6 +60,7 @@ async function onLogout() {
           消息
           <el-badge v-if="unread > 0" :value="unread" :max="99" class="nav-badge" />
         </RouterLink>
+        <RouterLink v-if="auth.isAdmin" to="/admin" class="nav-link">管理后台</RouterLink>
         <RouterLink v-if="auth.isAdmin" to="/admin/claims" class="nav-link">认领核验</RouterLink>
         <RouterLink v-if="auth.isLoggedIn" to="/profile" class="nav-link">个人中心</RouterLink>
       </nav>

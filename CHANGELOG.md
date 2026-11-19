@@ -8,6 +8,9 @@
 ## [Unreleased]
 
 ### 新增
+- 管理后台 M6：`GET /api/admin/items/audit` 待审核列表（默认待审、排除已关闭、带图片与分类）、`PUT /api/admin/items/{id}/audit` 审核（条件更新防重复，驳回必填理由，通知发布者）、分类管理（列表含 itemCount、增改重名 5001、删除被引用 5002）、用户管理（列表含发布数/认领数、启用禁用，不能操作自己与其他管理员）、`GET /api/admin/stats` 数据统计（总数/待审核/已完成认领/归还率 + 分类分布 + 近 30 天趋势）
+- 前端：`/admin` 四个页签（审核、分类、用户、统计），统计页使用 ECharts 饼图与折线图，图表独立分包
+- 单元测试新增 26 个（AdminService 19 / AdminController 7），合计 138
 - 留言与站内消息 M5：`POST /api/comments` 发表留言（通知发布者，自己留言不打扰）、`DELETE /api/comments/{id}` 删除（本人或管理员）、`GET /api/messages` 消息列表（只看自己、可按已读与类型筛选）、`PUT /api/messages/{id}/read` 标记已读（幂等）、`GET /api/messages/unread-count` 未读数
 - 前端：详情页留言输入与删除、`/messages` 消息中心（全部/未读/已读筛选、点击已读）、导航栏未读角标（60 秒轮询）
 - 单元测试新增 19 个（CommentService 7 / MessageService 7 / Controller 5），合计 112

@@ -459,3 +459,37 @@ body {
   gap: 10px;
   margin-top: 8px;
 }
+
+
+/* ===== 管理后台 ===== */
+.admin-tabs {
+  background: #fff;
+  padding: 4px 16px 16px;
+  border-radius: 6px;
+}
+
+.stat-row .el-card {
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #909399;
+  margin-bottom: 6px;
+}
+
+.stat-value {
+  font-size: 26px;
+  font-weight: 600;
+  color: #303133;
+}
+
+.chart {
+  height: 300px;
+}
+
+.audit-thumb {
+  width: 64px;
+  height: 48px;
+  border-radius: 4px;
+}
