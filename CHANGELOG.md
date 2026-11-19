@@ -12,6 +12,8 @@
 - 前端：`/admin` 四个页签（审核、分类、用户、统计），统计页使用 ECharts 饼图与折线图，图表独立分包
 - 单元测试新增 26 个（AdminService 19 / AdminController 7），合计 138
 - 文档：新增《使用说明书》（[`项目文档/使用说明书.md`](项目文档/使用说明书.md)），按游客 / 学生用户 / 管理员三种角色说明操作步骤、错误码对照与常见问题
+- 文档：新增《交付清单》（[`项目文档/交付清单.md`](项目文档/交付清单.md)）与《交接说明》（[`项目文档/交接说明.md`](项目文档/交接说明.md)），覆盖 FR 映射、缺口清单、30 分钟上手与集成测试交接
+- 测试资产：新增端到端冒烟脚本 [`scripts/smoke-test.ps1`](scripts/smoke-test.ps1)（19 步，含 4 个负向断言，退出码可用于 CI）
 - 留言与站内消息 M5：`POST /api/comments` 发表留言（通知发布者，自己留言不打扰）、`DELETE /api/comments/{id}` 删除（本人或管理员）、`GET /api/messages` 消息列表（只看自己、可按已读与类型筛选）、`PUT /api/messages/{id}/read` 标记已读（幂等）、`GET /api/messages/unread-count` 未读数
 - 前端：详情页留言输入与删除、`/messages` 消息中心（全部/未读/已读筛选、点击已读）、导航栏未读角标（60 秒轮询）
 - 单元测试新增 19 个（CommentService 7 / MessageService 7 / Controller 5），合计 112
