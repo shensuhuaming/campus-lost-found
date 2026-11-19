@@ -26,6 +26,7 @@ async function onLogout() {
       <nav class="nav">
         <RouterLink to="/" class="nav-link">首页</RouterLink>
         <RouterLink v-if="auth.isLoggedIn" to="/items/new" class="nav-link">发布信息</RouterLink>
+        <RouterLink v-if="auth.isAdmin" to="/admin/claims" class="nav-link">认领核验</RouterLink>
         <RouterLink v-if="auth.isLoggedIn" to="/profile" class="nav-link">个人中心</RouterLink>
       </nav>
       <div class="layout-right">

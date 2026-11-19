@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { ElMessage } from 'element-plus'
 import { useAuthStore } from '@/stores/auth'
 import FrontLayout from '@/layouts/FrontLayout.vue'
 import HomeView from '@/views/Home.vue'
 import ItemDetail from '@/views/ItemDetail.vue'
 import ItemEdit from '@/views/ItemEdit.vue'
+import AdminClaims from '@/views/AdminClaims.vue'
 import LoginView from '@/views/Login.vue'
 import ProfileView from '@/views/Profile.vue'
 
@@ -30,6 +32,12 @@ const router = createRouter({
           component: ProfileView,
           meta: { requiresAuth: true },
         },
+        {
+          path: 'admin/claims',
+          name: 'adminClaims',
+          component: AdminClaims,
+          meta: { requiresAuth: true, requiresAdmin: true },
+        },
       ],
     },
     { path: '/:pathMatch(.*)*', redirect: '/' },
@@ -45,6 +53,10 @@ router.beforeEach((to) => {
   const auth = useAuthStore()
   if (to.meta.requiresAuth && !auth.isLoggedIn) {
     return { path: '/login', query: { redirect: to.fullPath } }
+  }
+  if (to.meta.requiresAdmin && !auth.isAdmin) {
+    ElMessage.warning('无访问权限')
+    return { path: '/' }
   }
   if (to.meta.guestOnly && auth.isLoggedIn) {
     return { path: '/' }

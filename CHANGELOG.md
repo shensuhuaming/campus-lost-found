@@ -8,6 +8,9 @@
 ## [Unreleased]
 
 ### 新增
+- 认领与核验 M4：`POST /api/claims` 发起认领（防重复 3003、非本人 3001、仅拾物、未过审 2004，物品进入处理中并通知发布者）、`GET /api/claims` 核验列表（管理员，三表关联，默认待核验）、`PUT /api/claims/{id}/approve` 通过（物品置已完成、其余申请自动拒绝并通知）、`PUT /api/claims/{id}/reject` 拒绝（必填理由，无其他待核验时物品退回进行中）
+- 前端：详情页认领弹窗（已申请置灰）、`/admin/claims` 核验页（状态页签/关键词/通过/拒绝）、管理员导航与路由守卫
+- 单元测试新增 20 个（ClaimService 15 / ClaimController 5），合计 93
 - 失物信息 M2：`POST /api/items` 发布（≤3 图，图片白名单+存在性+未引用校验）、`PUT /api/items/{id}` 编辑（仅进行中，编辑后重新审核）、`PUT /api/items/{id}/close` 关闭（管理员必须填理由，写 `close_reason`，待核验认领自动拒绝）、`PUT /api/items/{id}/status` 寻物状态推进、`POST /api/upload/image` 图片上传（类型/大小/文件头三重校验）
 - 浏览检索 M3：`GET /api/items` 列表（类型/分类/状态筛选、关键词搜索且标题命中优先、分页）、`GET /api/items/{id}` 详情（图片、发布者、留言前 10 条、我的认领状态、联系方式按登录态掩码）、`GET /api/categories` 公开分类
 - 前端：首页列表（筛选/搜索/卡片/分页）、详情页（图片预览、本人操作）、发布/编辑页（3 图上传）、个人中心发布管理与操作列
