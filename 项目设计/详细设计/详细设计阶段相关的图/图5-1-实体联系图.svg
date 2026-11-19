@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1744px" height="1082px" viewBox="0 0 1744 1082">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1744" height="1082" fill="#ffffff"/>
+<rect x="200" y="470" width="200" height="96" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="300.0" y="518.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">用户</text>
+<rect x="1240" y="470" width="280" height="96" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1380.0" y="518.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">失物信息</text>
+<rect x="660" y="110" width="240" height="66" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="780.0" y="143.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">认领申请</text>
+<rect x="660" y="620" width="240" height="66" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="780.0" y="653.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">留言</text>
+<rect x="660" y="930" width="240" height="66" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="780.0" y="963.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">站内消息</text>
+<rect x="1250" y="80" width="220" height="64" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1360.0" y="112.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">分类</text>
+<rect x="1250" y="930" width="240" height="64" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1370.0" y="962.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">信息图片</text>
+<polygon points="510.0,288.0 578.0,323.0 510.0,358.0 442.0,323.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="510.0" y="323.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">申请</text>
+<rect x="349.8150045556052" y="444.3119994652476" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="365.8150045556052" y="457.3119994652476" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="638.1849954443948" y="175.68800053475238" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="654.1849954443948" y="188.68800053475238" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<polygon points="1080.0,288.0 1148.0,323.0 1080.0,358.0 1012.0,323.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1080.0" y="323.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">被申请</text>
+<rect x="870.5843120949055" y="202.41160172386626" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="886.5843120949055" y="215.41160172386626" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="1257.4156879050945" y="417.5883982761338" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="1273.4156879050945" y="430.5883982761338" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<polygon points="820.0,471.5 888.0,506.5 820.0,541.5 752.0,506.5" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="820.0" y="506.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">发布</text>
+<rect x="428.06400469474374" y="512.8427433502139" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="444.06400469474374" y="525.8427433502139" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="1179.9359953052565" y="474.15725664978606" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="1195.9359953052565" y="487.15725664978606" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<polygon points="530.0,555.0 598.0,590.0 530.0,625.0 462.0,590.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="530.0" y="590.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">发表</text>
+<rect x="418.605583245375" y="559.5953004012453" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="434.605583245375" y="572.5953004012453" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="609.394416754625" y="594.4046995987547" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="625.394416754625" y="607.4046995987547" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<polygon points="1070.0,564.0 1138.0,599.0 1070.0,634.0 1002.0,599.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1070.0" y="599.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">被留言</text>
+<rect x="931.3845433231044" y="643.8347169466402" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="947.3845433231044" y="656.8347169466402" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="1176.6154566768957" y="528.1652830533598" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="1192.6154566768957" y="541.1652830533598" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<polygon points="515.0,713.0 583.0,748.0 515.0,783.0 447.0,748.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="515.0" y="748.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">接收</text>
+<rect x="332.74252032234926" y="596.6888765244236" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="348.74252032234926" y="609.6888765244236" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="665.2574796776507" y="873.3111234755764" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="681.2574796776507" y="886.3111234755764" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<polygon points="1095.0,729.5 1163.0,764.5 1095.0,799.5 1027.0,764.5" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1095.0" y="764.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">关联</text>
+<rect x="927.6753687692615" y="931.2260243190469" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="943.6753687692615" y="944.2260243190469" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="1230.3246312307385" y="571.7739756809531" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="1246.3246312307385" y="584.7739756809531" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<polygon points="1360.0,272.0 1428.0,307.0 1360.0,342.0 1292.0,307.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1360.0" y="307.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">归类</text>
+<rect x="1326.0" y="175.0" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="1342.0" y="188.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="1362.0" y="413.0" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="1378.0" y="426.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<polygon points="1360.0,713.0 1428.0,748.0 1360.0,783.0 1292.0,748.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1360.0" y="748.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">包含</text>
+<rect x="1326.0" y="597.0" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="1342.0" y="610.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">1</text>
+<rect x="1362.0" y="873.0" width="32" height="26" fill="#FFFFFF" stroke="none" stroke-width="1.2"/>
+<text x="1378.0" y="886.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">N</text>
+<ellipse cx="88.0" cy="452.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="88.0" y="452.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">用户编号</text>
+<ellipse cx="88.0" cy="514.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="88.0" y="514.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">学号</text>
+<ellipse cx="88.0" cy="576.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="88.0" y="576.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">昵称</text>
+<ellipse cx="88.0" cy="638.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="88.0" y="638.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">角色</text>
+<ellipse cx="718.0" cy="42.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="718.0" y="42.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">申请编号</text>
+<ellipse cx="928.0" cy="42.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="928.0" y="42.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">认领状态</text>
+<ellipse cx="718.0" cy="742.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="718.0" y="742.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">留言编号</text>
+<ellipse cx="928.0" cy="742.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="928.0" y="742.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">留言内容</text>
+<ellipse cx="678.0" cy="1052.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="678.0" y="1052.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">消息编号</text>
+<ellipse cx="898.0" cy="1052.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="898.0" y="1052.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">消息类型</text>
+<ellipse cx="1118.0" cy="1052.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1118.0" y="1052.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">是否已读</text>
+<ellipse cx="1658.0" cy="412.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1658.0" y="412.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">信息编号</text>
+<ellipse cx="1658.0" cy="492.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1658.0" y="492.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">标题</text>
+<ellipse cx="1658.0" cy="572.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1658.0" y="572.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">审核状态</text>
+<ellipse cx="1658.0" cy="652.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1658.0" y="652.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">物品状态</text>
+<ellipse cx="1308.0" cy="32.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1308.0" y="32.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">分类编号</text>
+<ellipse cx="1518.0" cy="32.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1518.0" y="32.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">分类名称</text>
+<ellipse cx="1308.0" cy="1052.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1308.0" y="1052.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">图片编号</text>
+<ellipse cx="1518.0" cy="1052.0" rx="78.0" ry="22.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1518.0" y="1052.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">图片地址</text>
+<rect x="30" y="790" width="240" height="132" fill="#FFFFFF" stroke="#B3B3B3" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="56" y="816.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">矩形：实体</text>
+<text x="56" y="848.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">椭圆：属性</text>
+<text x="56" y="880.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">菱形：联系</text>
+<text x="56" y="908.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">1、N：联系基数</text>
+<path d="M 320,470 L 482.83431455004205,344.01766190075693" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 537.1656854499579,301.98233809924307 L 700,176" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 860,176 L 1050.4113924050632,303.2294303797468" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1109.5886075949368,342.7705696202532 L 1300,470" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 400,508 L 752.4685853263072,506.7411836238346" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 887.5314146736928,506.2588163761654 L 1240,505" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 400,540 L 491.0817610062893,575.0314465408806" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 568.9182389937107,604.9685534591194 L 660,640" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 900,653 L 1027.9505300353358,612.356890459364" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1112.0494699646642,585.643109540636 L 1240,545" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 330,566 L 491.6431489045674,725.0219086520609" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 538.3568510954326,770.9780913479391 L 700,930" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 900,963 L 1072.1638045564139,787.7460758746248" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1117.8361954435861,741.2539241253752 L 1290,566" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1360,144 L 1360.0,272.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1360.0,342.0 L 1360,470" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1360,566 L 1360.0,713.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1360.0,783.0 L 1360,930" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 225.0,470 L 88,474" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 200,506.0 L 166,514" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 325.0,566 L 88,554" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 375.0,566 L 88,616" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 720.0,110 L 718,64" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 840.0,110 L 928,64" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 720.0,686 L 718,720" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 840.0,686 L 928,720" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 700.0,996 L 678,1030" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 780.0,996 L 898,1030" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 860.0,996 L 1118,1030" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1275.0,470 L 1658,434" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1520,506.0 L 1580,492" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1415.0,566 L 1658,550" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1485.0,566 L 1658,630" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1305.0,80 L 1308,54" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1415.0,80 L 1518,54" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1310.0,994 L 1308,1030" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1430.0,994 L 1518,1030" fill="none" stroke="#333333" stroke-width="1.1"/>
+</svg>

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200px" height="760px" viewBox="0 0 1200 760">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1200" height="760" fill="#ffffff"/>
+<rect x="2" y="2" width="1196" height="756" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="0" y="0" width="180" height="760" fill="#E9EEF5" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="26" y="33.0" font-family="Microsoft YaHei,SimHei" font-size="15" fill="#000000" dominant-baseline="central">管理后台</text>
+<rect x="0" y="70" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="96.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">数据统计</text>
+<rect x="0" y="122" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="148.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">信息审核</text>
+<rect x="0" y="174" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="200.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">认领核验</text>
+<rect x="0" y="226" width="180" height="52" fill="#E9EEF5" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="252.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">分类管理</text>
+<rect x="0" y="278" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="304.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">用户管理</text>
+<text x="210" y="38.0" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">分类管理</text>
+<rect x="880" y="22" width="160" height="32" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="960.0" y="38.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">新增分类</text>
+<rect x="1056" y="22" width="120" height="32" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1116.0" y="38.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">刷新</text>
+<rect x="204" y="68" width="300" height="32" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="210" y="84.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">搜索分类名称…</text>
+<rect x="520" y="68" width="120" height="32" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="580.0" y="84.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">全部（6）</text>
+<rect x="204" y="116" width="96" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="210" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">序号</text>
+<rect x="300" y="116" width="220" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="306" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">分类名称</text>
+<rect x="520" y="116" width="100" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="526" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">排序值</text>
+<rect x="620" y="116" width="160" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="626" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">关联信息数</text>
+<rect x="780" y="116" width="200" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="786" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">创建时间</text>
+<rect x="980" y="116" width="196" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="986" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">操作</text>
+<rect x="204" y="154" width="96" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="300" y="154" width="220" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="520" y="154" width="100" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="620" y="154" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="780" y="154" width="200" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="980" y="154" width="196" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">1</text>
+<text x="316" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">证件</text>
+<text x="536" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">1</text>
+<text x="636" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">42</text>
+<text x="796" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-02-18 10:00</text>
+<rect x="988" y="166" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1023.0" y="180.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">编辑</text>
+<rect x="1066" y="166" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1101.0" y="180.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">删除</text>
+<rect x="204" y="210" width="96" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="300" y="210" width="220" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="520" y="210" width="100" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="620" y="210" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="780" y="210" width="200" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="980" y="210" width="196" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2</text>
+<text x="316" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">电子产品</text>
+<text x="536" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2</text>
+<text x="636" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">68</text>
+<text x="796" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-02-18 10:00</text>
+<rect x="988" y="222" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1023.0" y="236.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">编辑</text>
+<rect x="1066" y="222" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1101.0" y="236.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">删除</text>
+<rect x="204" y="266" width="96" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="300" y="266" width="220" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="520" y="266" width="100" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="620" y="266" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="780" y="266" width="200" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="980" y="266" width="196" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">3</text>
+<text x="316" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">钥匙</text>
+<text x="536" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">3</text>
+<text x="636" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">35</text>
+<text x="796" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-02-18 10:00</text>
+<rect x="988" y="278" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1023.0" y="292.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">编辑</text>
+<rect x="1066" y="278" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1101.0" y="292.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">删除</text>
+<rect x="204" y="322" width="96" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="300" y="322" width="220" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="520" y="322" width="100" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="620" y="322" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="780" y="322" width="200" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="980" y="322" width="196" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">4</text>
+<text x="316" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">书籍</text>
+<text x="536" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">4</text>
+<text x="636" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">27</text>
+<text x="796" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-02-18 10:00</text>
+<rect x="988" y="334" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1023.0" y="348.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">编辑</text>
+<rect x="1066" y="334" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1101.0" y="348.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">删除</text>
+<rect x="204" y="378" width="96" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="300" y="378" width="220" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="520" y="378" width="100" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="620" y="378" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="780" y="378" width="200" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="980" y="378" width="196" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">5</text>
+<text x="316" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">衣物</text>
+<text x="536" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">5</text>
+<text x="636" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">19</text>
+<text x="796" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-02-18 10:00</text>
+<rect x="988" y="390" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1023.0" y="404.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">编辑</text>
+<rect x="1066" y="390" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1101.0" y="404.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">删除</text>
+<rect x="204" y="434" width="96" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="300" y="434" width="220" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="520" y="434" width="100" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="620" y="434" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="780" y="434" width="200" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="980" y="434" width="196" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">6</text>
+<text x="316" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">其他</text>
+<text x="536" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">6</text>
+<text x="636" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">90</text>
+<text x="796" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-02-18 10:00</text>
+<rect x="988" y="446" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1023.0" y="460.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">编辑</text>
+<rect x="1066" y="446" width="70" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1101.0" y="460.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">删除</text>
+<rect x="204" y="520" width="972" height="176" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="226" y="546.0" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">新增 / 编辑分类</text>
+<text x="226" y="579.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">分类名称：</text>
+<rect x="324" y="564" width="260" height="32" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="330" y="580.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">请输入分类名称（2~10 字）</text>
+<text x="610" y="579.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">排序：</text>
+<rect x="664" y="564" width="140" height="32" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="670" y="580.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">数字，越小越靠前</text>
+<rect x="824" y="564" width="100" height="32" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="874.0" y="580.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">保存</text>
+<rect x="940" y="564" width="100" height="32" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="990.0" y="580.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">取消</text>
+<text x="226" y="632.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">· 分类名称唯一，重名返回 5001；名称与排序为必填，排序值相同时按创建时间升序；</text>
+<text x="226" y="662.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">· 分类下存在任何失物信息时禁止删除（返回 5002），需先将这些信息改到其他分类。</text>
+</svg>

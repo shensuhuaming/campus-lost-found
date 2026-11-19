@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="573px" height="920px" viewBox="0 0 573 920">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="573" height="920" fill="#ffffff"/>
+<rect x="235.0" y="16" width="330" height="38" rx="19.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="35.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">开始</text>
+<polygon points="249.0,84 565.0,84 551.0,136 235.0,136" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="110.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">接收上传文件 MultipartFile file</text>
+<polygon points="400.0,166 565.0,208.0 400.0,250 235.0,208.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="208.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">file 非空？</text>
+<polygon points="30,184.0 206,184.0 192,232.0 16,232.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="208.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">返回 4001：文件为空</text>
+<polygon points="400.0,280 565.0,322.0 400.0,364 235.0,322.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="322.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">大小不超过 2MB？</text>
+<polygon points="30,298.0 206,298.0 192,346.0 16,346.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="322.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">返回 4002：图片超过 2MB</text>
+<polygon points="400.0,394 565.0,438.0 400.0,482 235.0,438.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="438.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">扩展名为 jpg/png 且 MIME 匹配？</text>
+<polygon points="30,414.0 206,414.0 192,462.0 16,462.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="438.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">返回 4003：仅支持 jpg/png</text>
+<polygon points="400.0,512 565.0,554.0 400.0,596 235.0,554.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="554.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">当前物品图片数小于 3？</text>
+<polygon points="30,530.0 206,530.0 192,578.0 16,578.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="554.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">返回 4004：最多上传 3 张</text>
+<rect x="235.0" y="626" width="330" height="54" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="653.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">生成存储路径 uploads/yyyyMM/{uuid}.{ext}</text>
+<rect x="235.0" y="710" width="330" height="52" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="736.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">写入磁盘（目录不存在则先创建）</text>
+<polygon points="249.0,792 565.0,792 551.0,844 235.0,844" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="818.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">返回相对 URL：/uploads/yyyyMM/xxx.png</text>
+<rect x="235.0" y="874" width="330" height="38" rx="19.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="893.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">结束</text>
+<rect x="63.0" y="240.0" width="96" height="26" rx="13.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="253.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">结束</text>
+<rect x="63.0" y="354.0" width="96" height="26" rx="13.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="367.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">结束</text>
+<rect x="63.0" y="470.0" width="96" height="26" rx="13.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="483.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">结束</text>
+<rect x="63.0" y="586.0" width="96" height="26" rx="13.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="599.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">结束</text>
+<path d="M 235.0,208.0 L 206,208.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210.5" y="199.0" width="20" height="18" fill="#ffffff"/>
+<text x="220.5" y="208.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 235.0,322.0 L 206,322.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210.5" y="313.0" width="20" height="18" fill="#ffffff"/>
+<text x="220.5" y="322.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 235.0,438.0 L 206,438.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210.5" y="429.0" width="20" height="18" fill="#ffffff"/>
+<text x="220.5" y="438.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 235.0,554.0 L 206,554.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210.5" y="545.0" width="20" height="18" fill="#ffffff"/>
+<text x="220.5" y="554.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 400.0,54 L 400.0,84" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,136 L 400.0,166" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,364 L 400.0,394" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,482 L 400.0,512" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,596 L 400.0,626" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,680 L 400.0,710" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,762 L 400.0,792" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,844 L 400.0,874" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,250 L 400.0,280" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="390.0" y="256.0" width="20" height="18" fill="#ffffff"/>
+<text x="400.0" y="265.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">是</text>
+<path d="M 111.0,232.0 L 111.0,240.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 111.0,346.0 L 111.0,354.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 111.0,462.0 L 111.0,470.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 111.0,578.0 L 111.0,586.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+</svg>

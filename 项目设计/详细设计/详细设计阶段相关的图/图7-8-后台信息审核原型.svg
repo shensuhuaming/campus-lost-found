@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200px" height="760px" viewBox="0 0 1200 760">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1200" height="760" fill="#ffffff"/>
+<rect x="2" y="2" width="1196" height="756" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="0" y="0" width="180" height="760" fill="#E9EEF5" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="26" y="33.0" font-family="Microsoft YaHei,SimHei" font-size="15" fill="#000000" dominant-baseline="central">管理后台</text>
+<rect x="0" y="70" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="96.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">数据统计</text>
+<rect x="0" y="122" width="180" height="52" fill="#E9EEF5" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="148.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">信息审核</text>
+<rect x="0" y="174" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="200.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">认领核验</text>
+<rect x="0" y="226" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="252.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">分类管理</text>
+<rect x="0" y="278" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="304.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">用户管理</text>
+<text x="210" y="38.0" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">信息审核</text>
+<rect x="560" y="22" width="180" height="30" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="650.0" y="37.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">全部状态（下拉）</text>
+<rect x="752" y="22" width="240" height="30" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="758" y="37.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">按标题/发布者搜索</text>
+<rect x="1000" y="22" width="80" height="30" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1040.0" y="37.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">查询</text>
+<rect x="204" y="70" width="266" height="32" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="210" y="86.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">标题</text>
+<rect x="470" y="70" width="140" height="32" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="476" y="86.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">分类</text>
+<rect x="610" y="70" width="140" height="32" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="616" y="86.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">发布者</text>
+<rect x="750" y="70" width="150" height="32" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="756" y="86.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">提交时间</text>
+<rect x="900" y="70" width="100" height="32" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="906" y="86.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">状态</text>
+<rect x="1000" y="70" width="160" height="32" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="1006" y="86.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">操作</text>
+<rect x="204" y="106" width="266" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="470" y="106" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="610" y="106" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="750" y="106" width="150" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="900" y="106" width="100" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1000" y="106" width="160" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="218" y="128.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">黑色钱包（含校园卡）</text>
+<text x="484" y="128.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">证件</text>
+<text x="624" y="128.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">李同学</text>
+<text x="764" y="128.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">05-12 16:02</text>
+<text x="914" y="128.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">待审核</text>
+<rect x="1000" y="114" width="66" height="28" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1033.0" y="128.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">通过</text>
+<rect x="1072" y="114" width="66" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1105.0" y="128.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">驳回</text>
+<rect x="204" y="152" width="266" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="470" y="152" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="610" y="152" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="750" y="152" width="150" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="900" y="152" width="100" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1000" y="152" width="160" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="218" y="174.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">AirPods 充电盒</text>
+<text x="484" y="174.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">电子产品</text>
+<text x="624" y="174.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">周同学</text>
+<text x="764" y="174.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">05-12 15:10</text>
+<text x="914" y="174.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">待审核</text>
+<rect x="1000" y="160" width="66" height="28" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1033.0" y="174.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">通过</text>
+<rect x="1072" y="160" width="66" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1105.0" y="174.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">驳回</text>
+<rect x="204" y="198" width="266" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="470" y="198" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="610" y="198" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="750" y="198" width="150" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="900" y="198" width="100" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1000" y="198" width="160" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="218" y="220.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">宿舍钥匙一串</text>
+<text x="484" y="220.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">钥匙</text>
+<text x="624" y="220.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">王同学</text>
+<text x="764" y="220.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">05-12 11:30</text>
+<text x="914" y="220.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">待审核</text>
+<rect x="1000" y="206" width="66" height="28" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1033.0" y="220.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">通过</text>
+<rect x="1072" y="206" width="66" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1105.0" y="220.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">驳回</text>
+<rect x="204" y="244" width="266" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="470" y="244" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="610" y="244" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="750" y="244" width="150" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="900" y="244" width="100" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1000" y="244" width="160" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="218" y="266.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">《数据结构》教材</text>
+<text x="484" y="266.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">书籍</text>
+<text x="624" y="266.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">赵同学</text>
+<text x="764" y="266.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">05-11 20:14</text>
+<text x="914" y="266.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">待审核</text>
+<rect x="1000" y="252" width="66" height="28" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1033.0" y="266.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">通过</text>
+<rect x="1072" y="252" width="66" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1105.0" y="266.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">驳回</text>
+<rect x="204" y="290" width="266" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="470" y="290" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="610" y="290" width="140" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="750" y="290" width="150" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="900" y="290" width="100" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1000" y="290" width="160" height="44" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="218" y="312.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">旧版校历一册</text>
+<text x="484" y="312.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">其他</text>
+<text x="624" y="312.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">钱同学</text>
+<text x="764" y="312.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">05-11 09:02</text>
+<text x="914" y="312.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">待审核</text>
+<rect x="1000" y="298" width="66" height="28" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1033.0" y="312.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">通过</text>
+<rect x="1072" y="298" width="66" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1105.0" y="312.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">驳回</text>
+<rect x="204" y="360" width="952" height="56" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="210" y="388.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">驳回原因：内容与分类不符 / 描述过于简单 / 涉嫌虚假信息（不超过 100 字）…</text>
+<rect x="980" y="432" width="100" height="36" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1030.0" y="450.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">确认驳回</text>
+<rect x="1092" y="432" width="64" height="36" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1124.0" y="450.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">取消</text>
+<rect x="204" y="490" width="952" height="240" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="226" y="514.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">审核详情预览</text>
+<rect x="220" y="536" width="260" height="180" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="226" y="626.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">图片预览</text>
+<text x="506" y="547.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">标题：黑色钱包（含校园卡）</text>
+<text x="506" y="577.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">分类：证件　类型：拾物　地点：图书馆三楼自习区</text>
+<text x="506" y="646.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">描述：图书馆三楼靠窗座位捡到黑色短款钱包，内有一卡通、少量现金，已交至图书馆服务台。</text>
+</svg>

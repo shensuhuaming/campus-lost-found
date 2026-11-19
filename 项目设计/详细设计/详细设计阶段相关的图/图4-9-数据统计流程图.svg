@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="573px" height="788px" viewBox="0 0 573 788">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="573" height="788" fill="#ffffff"/>
+<rect x="235.0" y="16" width="330" height="38" rx="19.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="35.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">开始</text>
+<rect x="235.0" y="84" width="330" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="109.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">校验管理员角色 role = 1</text>
+<rect x="235.0" y="164" width="330" height="54" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="191.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">查询失物总数与各审核/物品状态数量</text>
+<rect x="235.0" y="248" width="330" height="52" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="274.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">按分类统计数量 GROUP BY category_id</text>
+<rect x="235.0" y="330" width="330" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="355.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">统计近 7 日每日发布量</text>
+<rect x="235.0" y="410" width="330" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="438.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">计算归还率（已完成拾物 ÷ 已通过拾物，保留 2 位）</text>
+<rect x="235.0" y="496" width="330" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="524.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">组装统计 VO：卡片指标、分类分布、趋势数组</text>
+<rect x="235.0" y="582" width="330" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="607.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">返回 JSON（Result 统一结构）</text>
+<rect x="235.0" y="662" width="330" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="687.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">前端 ECharts 渲染指标卡与图表</text>
+<rect x="235.0" y="742" width="330" height="38" rx="19.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="400.0" y="761.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">结束</text>
+<path d="M 400.0,54 L 400.0,84" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,134 L 400.0,164" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,218 L 400.0,248" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,300 L 400.0,330" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,380 L 400.0,410" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,466 L 400.0,496" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,552 L 400.0,582" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,632 L 400.0,662" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 400.0,712 L 400.0,742" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+</svg>

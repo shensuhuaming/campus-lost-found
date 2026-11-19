@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1358px" height="518px" viewBox="0 0 1358 518">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1358" height="518" fill="#ffffff"/>
+<rect x="580" y="14" width="220" height="44" fill="#F0F0F0" stroke="#333333" stroke-width="1.2"/>
+<text x="690.0" y="36.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="14" fill="#000000" dominant-baseline="central">App.vue（根组件）</text>
+<rect x="30" y="108" width="250" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="155.0" y="130.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">router 路由 + pinia 状态</text>
+<rect x="330" y="108" width="250" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="455.0" y="130.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">FrontLayout 前台布局</text>
+<rect x="700" y="108" width="250" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="825.0" y="130.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">AdminLayout 后台布局</text>
+<rect x="1030" y="108" width="280" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1170.0" y="130.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">公共组件库 components</text>
+<rect x="300" y="186" width="320" height="324" fill="#FFFFFF" stroke="#B3B3B3" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="336" y="200.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">前台页面（7 个）</text>
+<rect x="334" y="216" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="470.0" y="232.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">首页 Home</text>
+<rect x="334" y="256" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="470.0" y="272.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">失物列表 ItemList</text>
+<rect x="334" y="296" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="470.0" y="312.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">失物详情 ItemDetail</text>
+<rect x="334" y="336" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="470.0" y="352.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发布/编辑 ItemEdit</text>
+<rect x="334" y="376" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="470.0" y="392.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">登录注册 Login</text>
+<rect x="334" y="416" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="470.0" y="432.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">个人中心 Profile</text>
+<rect x="334" y="456" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="470.0" y="472.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">消息中心 Messages</text>
+<rect x="670" y="186" width="320" height="244" fill="#FFFFFF" stroke="#B3B3B3" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="706" y="200.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">后台页面（5 个）</text>
+<rect x="704" y="216" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="840.0" y="232.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">数据统计 Stats</text>
+<rect x="704" y="256" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="840.0" y="272.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">信息审核 Audit</text>
+<rect x="704" y="296" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="840.0" y="312.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">分类管理 Category</text>
+<rect x="704" y="336" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="840.0" y="352.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">用户管理 UserList</text>
+<rect x="704" y="376" width="272" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="840.0" y="392.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">认领核验 ClaimAudit</text>
+<rect x="1000" y="186" width="350" height="244" fill="#FFFFFF" stroke="#B3B3B3" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="1036" y="200.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">公共组件</text>
+<rect x="1034" y="216" width="302" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1185.0" y="232.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">导航栏 NavBar</text>
+<rect x="1034" y="256" width="302" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1185.0" y="272.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">失物卡片 ItemCard</text>
+<rect x="1034" y="296" width="302" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1185.0" y="312.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">图片上传 UploadImage</text>
+<rect x="1034" y="336" width="302" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1185.0" y="352.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">分页组件 Pagination</text>
+<rect x="1034" y="376" width="302" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1185.0" y="392.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">状态标签 StatusTag</text>
+<rect x="30" y="180" width="250" height="150" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="36" y="224.64000000000001" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">api/request.js：axios 实例</text>
+<text x="36" y="239.82000000000002" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">统一携带 token、拦截 401</text>
+<text x="36" y="255.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">api/*.js：按模块拆分接口</text>
+<text x="36" y="270.18" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">store/user.js：用户与权限</text>
+<text x="36" y="285.36" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">utils/auth.js：token 存取</text>
+<path d="M 690.0,58 L 690.0,84 L 155.0,84 L 155.0,108" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 690.0,58 L 690.0,84 L 455.0,84 L 455.0,108" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 690.0,58 L 690.0,84 L 825.0,84 L 825.0,108" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 690.0,58 L 690.0,84 L 1170.0,84 L 1170.0,108" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 455.0,152 L 455.0,176 L 316,176 L 316,232 L 334,232.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 455.0,152 L 455.0,176 L 316,176 L 316,272 L 334,272.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 455.0,152 L 455.0,176 L 316,176 L 316,312 L 334,312.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 455.0,152 L 455.0,176 L 316,176 L 316,352 L 334,352.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 455.0,152 L 455.0,176 L 316,176 L 316,392 L 334,392.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 455.0,152 L 455.0,176 L 316,176 L 316,432 L 334,432.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 455.0,152 L 455.0,176 L 316,176 L 316,472 L 334,472.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 825.0,152 L 825.0,176 L 686,176 L 686,232 L 704,232.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 825.0,152 L 825.0,176 L 686,176 L 686,272 L 704,272.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 825.0,152 L 825.0,176 L 686,176 L 686,312 L 704,312.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 825.0,152 L 825.0,176 L 686,176 L 686,352 L 704,352.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 825.0,152 L 825.0,176 L 686,176 L 686,392 L 704,392.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1170.0,152 L 1170.0,176 L 1016,176 L 1016,232 L 1034,232.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1170.0,152 L 1170.0,176 L 1016,176 L 1016,272 L 1034,272.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1170.0,152 L 1170.0,176 L 1016,176 L 1016,312 L 1034,312.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1170.0,152 L 1170.0,176 L 1016,176 L 1016,352 L 1034,352.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1170.0,152 L 1170.0,176 L 1016,176 L 1016,392 L 1034,392.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 280,130.0 L 330,130.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 155.0,152 L 155.0,180" fill="none" stroke="#333333" stroke-width="1.1"/>
+</svg>

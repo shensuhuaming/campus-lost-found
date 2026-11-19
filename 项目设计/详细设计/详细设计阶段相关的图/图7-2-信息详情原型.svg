@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200px" height="860px" viewBox="0 0 1200 860">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1200" height="860" fill="#ffffff"/>
+<rect x="2" y="2" width="1196" height="856" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="0" y="0" width="1200" height="58" fill="#E9EEF5" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="29.0" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">校园失物招领</text>
+<text x="276.0" y="29.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">首页</text>
+<text x="376.0" y="29.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">全部信息</text>
+<text x="476.0" y="29.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">发布信息</text>
+<text x="576.0" y="29.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">消息中心</text>
+<rect x="960" y="14" width="90" height="30" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1005.0" y="29.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">登录</text>
+<rect x="1060" y="14" width="110" height="30" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1115.0" y="29.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">注册</text>
+<text x="46" y="86.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">首页 / 全部信息 / 黑色钱包（含校园卡）</text>
+<rect x="40" y="108" width="520" height="300" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="46" y="258.0" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">主图（点击查看大图）</text>
+<rect x="40" y="420" width="120" height="84" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="46" y="462.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">缩略图 1</text>
+<rect x="172" y="420" width="120" height="84" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="178" y="462.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">缩略图 2</text>
+<rect x="304" y="420" width="120" height="84" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="310" y="462.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">缩略图 3</text>
+<text x="598" y="125.0" font-family="Microsoft YaHei,SimHei" font-size="18" fill="#000000" dominant-baseline="central">黑色钱包（含校园卡）</text>
+<rect x="592" y="152" width="78" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="631.0" y="166.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">待认领</text>
+<rect x="682" y="152" width="78" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="721.0" y="166.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">拾物</text>
+<text x="598" y="209.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">分类：</text>
+<text x="692" y="209.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">证件</text>
+<text x="598" y="243.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发生时间：</text>
+<text x="692" y="243.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">2025-05-12 14:30</text>
+<text x="598" y="277.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发生地点：</text>
+<text x="692" y="277.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">图书馆三楼自习区</text>
+<text x="598" y="311.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发布者：</text>
+<text x="692" y="311.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">李同学（2022304512）</text>
+<text x="598" y="345.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">联系方式：</text>
+<text x="692" y="345.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">138****6621</text>
+<text x="598" y="379.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发布时间：</text>
+<text x="692" y="379.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">2025-05-12 16:02</text>
+<text x="598" y="413.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">审核状态：</text>
+<text x="692" y="413.0" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">已通过</text>
+<rect x="592" y="444" width="560" height="96" rx="4" fill="#FFFDF3" stroke="#D8C48A" stroke-width="1.2"/>
+<text x="598" y="484.40999999999997" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">描述：图书馆三楼靠窗座位捡到黑色短款钱包，内有一卡通、少量现金，已交至图书馆服务台，请失主携带</text>
+<text x="598" y="499.59" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">学生证认领。</text>
+<rect x="592" y="552" width="130" height="38" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="657.0" y="571.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">申请认领</text>
+<rect x="734" y="552" width="100" height="38" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="784.0" y="571.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">留言</text>
+<rect x="40" y="592" width="1112" height="200" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="62" y="614.0" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">留言（3）</text>
+<rect x="56" y="636" width="36" height="36" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="62" y="654.0" font-family="Microsoft YaHei,SimHei" font-size="9.5" fill="#000000" dominant-baseline="central">头像</text>
+<text x="110" y="646.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">王同学</text>
+<text x="110" y="667.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">这个钱包好像是隔壁宿舍同学的，帮忙转告一下。</text>
+<text x="1036" y="647.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">2025-05-13</text>
+<rect x="56" y="686" width="36" height="36" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="62" y="704.0" font-family="Microsoft YaHei,SimHei" font-size="9.5" fill="#000000" dominant-baseline="central">头像</text>
+<text x="110" y="696.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">赵同学</text>
+<text x="110" y="717.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">已联系失主，谢谢楼主！</text>
+<text x="1036" y="697.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">2025-05-13</text>
+<rect x="56" y="736" width="36" height="36" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="62" y="754.0" font-family="Microsoft YaHei,SimHei" font-size="9.5" fill="#000000" dominant-baseline="central">头像</text>
+<text x="110" y="746.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">李同学</text>
+<text x="110" y="767.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">已归还，感谢大家关注。</text>
+<text x="1036" y="747.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">2025-05-13</text>
+<rect x="40" y="800" width="900" height="40" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="46" y="820.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">写下你的留言（不超过 200 字）…</text>
+<rect x="952" y="800" width="90" height="40" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="997.0" y="820.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发表</text>
+</svg>

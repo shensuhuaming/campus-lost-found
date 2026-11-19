@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="553px" height="1102px" viewBox="0 0 553 1102">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="553" height="1102" fill="#ffffff"/>
+<rect x="235.0" y="16" width="310" height="38" rx="19.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="35.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">开始</text>
+<polygon points="249.0,84 545.0,84 531.0,136 235.0,136" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="110.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">输入学号与密码</text>
+<rect x="235.0" y="166" width="310" height="52" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="192.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">非空校验与长度校验</text>
+<polygon points="390.0,248 545.0,290.0 390.0,332 235.0,290.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="290.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">格式合法？</text>
+<polygon points="30,261.0 206,261.0 192,319.0 16,319.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="282.08000000000004" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">提示“请输入正确的</text>
+<text x="111.0" y="297.92" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">学号与密码”</text>
+<rect x="235.0" y="362" width="310" height="60" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="383.41999999999996" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">查询用户</text>
+<text x="390.0" y="400.58" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">selectByStudentNo(studentNo)</text>
+<polygon points="390.0,452 545.0,494.0 390.0,536 235.0,494.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="494.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">用户存在？</text>
+<polygon points="30,463.0 206,463.0 192,525.0 16,525.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="486.08000000000004" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">提示“账号或密码</text>
+<text x="111.0" y="501.92" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">错误”（不区分具体原因）</text>
+<rect x="235.0" y="566" width="310" height="58" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="586.4200000000001" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">校验密码</text>
+<text x="390.0" y="603.58" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">BCrypt.matches(明文, password)</text>
+<polygon points="390.0,654 545.0,696.0 390.0,738 235.0,696.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="696.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">密码一致？</text>
+<polygon points="30,670.0 206,670.0 192,722.0 16,722.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="696.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">提示“账号或密码错误”</text>
+<polygon points="390.0,768 545.0,812.0 390.0,856 235.0,812.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="812.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">账号状态为正常（status = 0）？</text>
+<polygon points="30,783.0 206,783.0 192,841.0 16,841.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="804.0799999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">提示“账号已被禁用，</text>
+<text x="111.0" y="819.92" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">请联系管理员”</text>
+<rect x="235.0" y="886" width="310" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="914.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">生成 JWT（uid、role，有效期 12 小时）</text>
+<polygon points="249.0,972 545.0,972 531.0,1026 235.0,1026" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="999.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">返回 token 与用户基本信息</text>
+<rect x="235.0" y="1056" width="310" height="38" rx="19.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="390.0" y="1075.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">结束</text>
+<rect x="63.0" y="327.0" width="96" height="26" rx="13.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="340.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">结束</text>
+<rect x="63.0" y="533.0" width="96" height="26" rx="13.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="546.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">结束</text>
+<rect x="63.0" y="730.0" width="96" height="26" rx="13.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="743.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">结束</text>
+<rect x="63.0" y="849.0" width="96" height="26" rx="13.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="111.0" y="862.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">结束</text>
+<path d="M 235.0,290.0 L 206,290.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210.5" y="281.0" width="20" height="18" fill="#ffffff"/>
+<text x="220.5" y="290.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 235.0,494.0 L 206,494.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210.5" y="485.0" width="20" height="18" fill="#ffffff"/>
+<text x="220.5" y="494.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 235.0,696.0 L 206,696.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210.5" y="687.0" width="20" height="18" fill="#ffffff"/>
+<text x="220.5" y="696.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 235.0,812.0 L 206,812.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210.5" y="803.0" width="20" height="18" fill="#ffffff"/>
+<text x="220.5" y="812.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 390.0,54 L 390.0,84" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 390.0,136 L 390.0,166" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 390.0,218 L 390.0,248" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 390.0,422 L 390.0,452" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 390.0,624 L 390.0,654" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 390.0,942 L 390.0,972" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 390.0,1026 L 390.0,1056" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 390.0,332 L 390.0,362" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="380.0" y="338.0" width="20" height="18" fill="#ffffff"/>
+<text x="390.0" y="347.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">是</text>
+<path d="M 390.0,536 L 390.0,566" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="380.0" y="542.0" width="20" height="18" fill="#ffffff"/>
+<text x="390.0" y="551.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">是</text>
+<path d="M 390.0,738 L 390.0,768" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="380.0" y="744.0" width="20" height="18" fill="#ffffff"/>
+<text x="390.0" y="753.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">是</text>
+<path d="M 390.0,856 L 390.0,886" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="380.0" y="862.0" width="20" height="18" fill="#ffffff"/>
+<text x="390.0" y="871.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">是</text>
+<path d="M 111.0,319.0 L 111.0,327.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 111.0,525.0 L 111.0,533.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 111.0,722.0 L 111.0,730.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 111.0,841.0 L 111.0,849.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+</svg>

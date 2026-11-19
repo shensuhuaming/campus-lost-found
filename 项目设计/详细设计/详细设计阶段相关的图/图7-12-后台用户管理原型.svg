@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200px" height="760px" viewBox="0 0 1200 760">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1200" height="760" fill="#ffffff"/>
+<rect x="2" y="2" width="1196" height="756" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="0" y="0" width="180" height="760" fill="#E9EEF5" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="26" y="33.0" font-family="Microsoft YaHei,SimHei" font-size="15" fill="#000000" dominant-baseline="central">管理后台</text>
+<rect x="0" y="70" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="96.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">数据统计</text>
+<rect x="0" y="122" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="148.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">信息审核</text>
+<rect x="0" y="174" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="200.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">认领核验</text>
+<rect x="0" y="226" width="180" height="52" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="252.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">分类管理</text>
+<rect x="0" y="278" width="180" height="52" fill="#E9EEF5" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="30" y="304.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">用户管理</text>
+<text x="210" y="38.0" font-family="Microsoft YaHei,SimHei" font-size="16" fill="#000000" dominant-baseline="central">用户管理</text>
+<rect x="204" y="68" width="300" height="32" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="210" y="84.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">按学号或昵称搜索…</text>
+<rect x="520" y="68" width="120" height="32" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="580.0" y="84.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">全部角色（下拉）</text>
+<rect x="652" y="68" width="120" height="32" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="712.0" y="84.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">全部状态（下拉）</text>
+<rect x="786" y="68" width="80" height="32" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="826.0" y="84.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">搜索</text>
+<text x="886" y="87.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">共 128 名学生 · 1 名管理员</text>
+<rect x="204" y="116" width="126" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="210" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">学号</text>
+<rect x="330" y="116" width="160" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="336" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">昵称</text>
+<rect x="490" y="116" width="180" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="496" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">手机号</text>
+<rect x="670" y="116" width="90" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="676" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">角色</text>
+<rect x="760" y="116" width="90" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="766" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">状态</text>
+<rect x="850" y="116" width="170" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="856" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">注册时间</text>
+<rect x="1020" y="116" width="156" height="34" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="1026" y="133.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">操作</text>
+<rect x="204" y="154" width="126" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="330" y="154" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="490" y="154" width="180" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="670" y="154" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="760" y="154" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="850" y="154" width="170" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1020" y="154" width="156" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">20230101</text>
+<text x="346" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">王同学</text>
+<text x="506" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">138****6621</text>
+<text x="686" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">学生</text>
+<text x="776" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">正常</text>
+<text x="866" y="181.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-03-02 09:12</text>
+<rect x="1028" y="166" width="128" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1092.0" y="180.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">禁用</text>
+<rect x="204" y="210" width="126" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="330" y="210" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="490" y="210" width="180" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="670" y="210" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="760" y="210" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="850" y="210" width="170" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1020" y="210" width="156" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">20230115</text>
+<text x="346" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">李同学</text>
+<text x="506" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">139****8830</text>
+<text x="686" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">学生</text>
+<text x="776" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">正常</text>
+<text x="866" y="237.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-03-02 10:31</text>
+<rect x="1028" y="222" width="128" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1092.0" y="236.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">禁用</text>
+<rect x="204" y="266" width="126" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="330" y="266" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="490" y="266" width="180" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="670" y="266" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="760" y="266" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="850" y="266" width="170" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1020" y="266" width="156" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">20230208</text>
+<text x="346" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">张同学</text>
+<text x="506" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">137****4412</text>
+<text x="686" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">学生</text>
+<text x="776" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">禁用</text>
+<text x="866" y="293.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-03-05 14:20</text>
+<rect x="1028" y="278" width="128" height="28" rx="6" fill="#409EFF" stroke="#409EFF" stroke-width="1.2"/>
+<text x="1092.0" y="292.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">启用</text>
+<rect x="204" y="322" width="126" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="330" y="322" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="490" y="322" width="180" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="670" y="322" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="760" y="322" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="850" y="322" width="170" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1020" y="322" width="156" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">20220077</text>
+<text x="346" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">孙同学</text>
+<text x="506" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">136****2077</text>
+<text x="686" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">学生</text>
+<text x="776" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">正常</text>
+<text x="866" y="349.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-03-08 08:45</text>
+<rect x="1028" y="334" width="128" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1092.0" y="348.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">禁用</text>
+<rect x="204" y="378" width="126" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="330" y="378" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="490" y="378" width="180" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="670" y="378" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="760" y="378" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="850" y="378" width="170" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1020" y="378" width="156" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">20210033</text>
+<text x="346" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">周同学</text>
+<text x="506" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">135****9908</text>
+<text x="686" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">学生</text>
+<text x="776" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">正常</text>
+<text x="866" y="405.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-03-11 16:02</text>
+<rect x="1028" y="390" width="128" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1092.0" y="404.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">禁用</text>
+<rect x="204" y="434" width="126" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="330" y="434" width="160" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="490" y="434" width="180" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="670" y="434" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="760" y="434" width="90" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="850" y="434" width="170" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<rect x="1020" y="434" width="156" height="52" fill="#FFFFFF" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="220" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">admin</text>
+<text x="346" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">系统管理员</text>
+<text x="506" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">130****0001</text>
+<text x="686" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">管理员</text>
+<text x="776" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">正常</text>
+<text x="866" y="461.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">2026-02-18 10:00</text>
+<rect x="1028" y="446" width="128" height="28" rx="6" fill="#FFFFFF" stroke="#B7C0CB" stroke-width="1.2"/>
+<text x="1092.0" y="460.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10" fill="#000000" dominant-baseline="central">—（不可禁用）</text>
+<rect x="204" y="516" width="972" height="180" fill="#F5F7FA" stroke="#8A94A0" stroke-width="1.2"/>
+<text x="226" y="542.0" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">账号状态说明</text>
+<text x="226" y="578.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">· 禁用后该账号立即无法登录，已签发的令牌在过期前仍可访问，故服务端每次请求校验 status（见 8.1）；</text>
+<text x="226" y="610.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">· 管理员账号不可被禁用，当前登录账号自身也禁止禁用，避免锁死后台；</text>
+<text x="226" y="642.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">· 用户列表只返回昵称、掩码手机号与学号，不返回密码与完整联系方式。</text>
+</svg>

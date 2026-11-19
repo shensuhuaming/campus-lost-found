@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000px" height="1072px" viewBox="0 0 2000 1072">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="2000" height="1072" fill="#ffffff"/>
+<text x="96" y="18.0" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">图 3-4  设计类图（实现级）：纵向为依赖方向，每个类占一列，类框为「名称 / 成员」两段；虚线为依赖，LostItem 组合 ItemImage（1 : N）</text>
+<rect x="80" y="46" width="256" height="118" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="86" y="85.19999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">认证控制器</text>
+<text x="86" y="98.39999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">（AuthController）</text>
+<text x="86" y="111.6" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">注册（register）／登录（login）</text>
+<text x="86" y="124.8" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">退出登录（logout）</text>
+<rect x="344" y="46" width="256" height="118" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="350" y="85.19999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">个人中心控制器</text>
+<text x="350" y="98.39999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">（UserController）</text>
+<text x="350" y="111.6" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">个人资料（getProfile）／修改资料（updateProfile）</text>
+<text x="350" y="124.8" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">我的消息（listMessages）</text>
+<rect x="872" y="46" width="256" height="118" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="878" y="85.19999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">失物信息控制器</text>
+<text x="878" y="98.39999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">（ItemController）</text>
+<text x="878" y="111.6" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">发布（create）／检索（search）</text>
+<text x="878" y="124.8" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">关闭（close）</text>
+<rect x="1400" y="46" width="256" height="118" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="1406" y="85.19999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">认领控制器</text>
+<text x="1406" y="98.39999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">（ClaimController）</text>
+<text x="1406" y="111.6" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">申请（apply）／核验通过（approve）</text>
+<text x="1406" y="124.8" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">核验拒绝（reject）</text>
+<rect x="1664" y="46" width="256" height="118" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="1670" y="85.19999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">后台管理控制器</text>
+<text x="1670" y="98.39999999999999" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">（AdminController）</text>
+<text x="1670" y="111.6" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">审核（audit）／分类（category）</text>
+<text x="1670" y="124.8" font-family="Microsoft YaHei,SimHei" font-size="10.0" fill="#000000" dominant-baseline="central">统计（stats）</text>
+<rect x="90" y="236" width="236" height="150" fill="#F7F7F7" stroke="#808080" stroke-width="1.2"/>
+<text x="96" y="285.656" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="96" y="298.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">认证服务</text>
+<text x="96" y="311.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（AuthService）</text>
+<text x="96" y="323.672" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">注册（register）／登录（login）</text>
+<text x="96" y="336.344" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">退出（logout）</text>
+<rect x="354" y="236" width="236" height="150" fill="#F7F7F7" stroke="#808080" stroke-width="1.2"/>
+<text x="360" y="285.656" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="360" y="298.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">用户服务</text>
+<text x="360" y="311.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（UserService）</text>
+<text x="360" y="323.672" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">个人资料（profile）／改密（password）</text>
+<text x="360" y="336.344" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">我的发布（myItems）</text>
+<rect x="618" y="236" width="236" height="150" fill="#F7F7F7" stroke="#808080" stroke-width="1.2"/>
+<text x="624" y="285.656" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="624" y="298.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">消息服务</text>
+<text x="624" y="311.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（MessageService）</text>
+<text x="624" y="323.672" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">推送（push）／列表（page）</text>
+<text x="624" y="336.344" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">已读（read）／未读数（countUnread）</text>
+<rect x="882" y="236" width="236" height="150" fill="#F7F7F7" stroke="#808080" stroke-width="1.2"/>
+<text x="888" y="279.32" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="888" y="291.99199999999996" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">失物信息服务</text>
+<text x="888" y="304.664" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（ItemService）</text>
+<text x="888" y="317.336" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">发布（publish）／编辑（edit）</text>
+<text x="888" y="330.008" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">检索（search）／详情（detail）</text>
+<text x="888" y="342.67999999999995" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">关闭（close）</text>
+<rect x="1146" y="236" width="236" height="150" fill="#F7F7F7" stroke="#808080" stroke-width="1.2"/>
+<text x="1152" y="285.656" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="1152" y="298.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">留言服务</text>
+<text x="1152" y="311.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（CommentService）</text>
+<text x="1152" y="323.672" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">发表（add）／删除（remove）</text>
+<text x="1152" y="336.344" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">按物品分页（pageByItem）</text>
+<rect x="1410" y="236" width="236" height="150" fill="#F7F7F7" stroke="#808080" stroke-width="1.2"/>
+<text x="1416" y="285.656" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="1416" y="298.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">认领服务</text>
+<text x="1416" y="311.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（ClaimService）</text>
+<text x="1416" y="323.672" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">申请（apply）／核验通过（approve）</text>
+<text x="1416" y="336.344" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">拒绝（reject）／分页（page）</text>
+<rect x="1674" y="236" width="236" height="150" fill="#F7F7F7" stroke="#808080" stroke-width="1.2"/>
+<text x="1680" y="285.656" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="1680" y="298.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">后台服务</text>
+<text x="1680" y="311.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（AdminService）</text>
+<text x="1680" y="323.672" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">审核（audit）／分类（category）</text>
+<text x="1680" y="336.344" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">用户（users）／统计（stats）</text>
+<rect x="354" y="470" width="236" height="122" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="472.0" y="506.184" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="472.0" y="518.592" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">用户表</text>
+<text x="472.0" y="531.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">（UserMapper）</text>
+<text x="472.0" y="543.408" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">按学号查询（selectByStudentNo）</text>
+<text x="472.0" y="555.816" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">更新状态（updateStatus）</text>
+<rect x="618" y="470" width="236" height="122" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="736.0" y="506.184" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="736.0" y="518.592" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">消息表</text>
+<text x="736.0" y="531.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">（MessageMapper）</text>
+<text x="736.0" y="543.408" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">未读数（countUnread）</text>
+<text x="736.0" y="555.816" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">按用户分页（pageByUser）</text>
+<rect x="882" y="470" width="236" height="122" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000.0" y="506.184" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="1000.0" y="518.592" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">失物表</text>
+<text x="1000.0" y="531.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">（ItemMapper）</text>
+<text x="1000.0" y="543.408" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">分页查询（selectPage）</text>
+<text x="1000.0" y="555.816" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">条件更新状态（updateStatusIf）</text>
+<rect x="1146" y="470" width="236" height="122" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1264.0" y="506.184" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="1264.0" y="518.592" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">留言表</text>
+<text x="1264.0" y="531.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">（CommentMapper）</text>
+<text x="1264.0" y="543.408" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">按物品查询（selectByItem）</text>
+<text x="1264.0" y="555.816" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">按用户分页（pageByUser）</text>
+<rect x="1410" y="470" width="236" height="122" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1528.0" y="506.184" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="1528.0" y="518.592" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">认领表</text>
+<text x="1528.0" y="531.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">（ClaimMapper）</text>
+<text x="1528.0" y="543.408" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">分页查询（selectPage）</text>
+<text x="1528.0" y="555.816" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">核验通过（updateApprove）</text>
+<rect x="1674" y="470" width="236" height="122" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1792.0" y="506.184" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">«接口»</text>
+<text x="1792.0" y="518.592" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">分类表</text>
+<text x="1792.0" y="531.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">（CategoryMapper）</text>
+<text x="1792.0" y="543.408" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">基础增删改查（BaseMapper）</text>
+<text x="1792.0" y="555.816" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.4" fill="#000000" dominant-baseline="central">统计物品数（countItems）</text>
+<rect x="90" y="626" width="1820" height="196" fill="#FFFFFF" stroke="#B3B3B3" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="110" y="801.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">实体类（entity）共 7 个：与 lost_found 库的 7 张表一一对应，字段定义见概要设计说明书第 5 章</text>
+<rect x="90" y="662" width="236" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="208.0" y="691.328" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">图片</text>
+<text x="208.0" y="704.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（ItemImage）</text>
+<text x="208.0" y="716.6719999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（item_id, url, sort）</text>
+<rect x="354" y="662" width="236" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="472.0" y="691.328" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">用户</text>
+<text x="472.0" y="704.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（User）</text>
+<text x="472.0" y="716.6719999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（student_no, role）</text>
+<rect x="618" y="662" width="236" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="736.0" y="691.328" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">站内消息</text>
+<text x="736.0" y="704.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（Message）</text>
+<text x="736.0" y="716.6719999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（is_read, type）</text>
+<rect x="882" y="662" width="236" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000.0" y="691.328" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">失物信息</text>
+<text x="1000.0" y="704.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（LostItem）</text>
+<text x="1000.0" y="716.6719999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（item_status, audit_status）</text>
+<rect x="1146" y="662" width="236" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1264.0" y="691.328" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">留言</text>
+<text x="1264.0" y="704.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（Comment）</text>
+<text x="1264.0" y="716.6719999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（item_id, user_id）</text>
+<rect x="1410" y="662" width="236" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1528.0" y="691.328" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">认领申请</text>
+<text x="1528.0" y="704.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（Claim）</text>
+<text x="1528.0" y="716.6719999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（status, admin_id）</text>
+<rect x="1674" y="662" width="236" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1792.0" y="691.328" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">分类</text>
+<text x="1792.0" y="704.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（Category）</text>
+<text x="1792.0" y="716.6719999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">（name, sort）</text>
+<rect x="90" y="838" width="1820" height="168" fill="#FFFFFF" stroke="#B3B3B3" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="110" y="857.0" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">公共支撑类（被上述各层复用）</text>
+<rect x="100" y="878" width="332" height="112" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="106" y="921.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">状态机（ItemStatusMachine）</text>
+<text x="106" y="934.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">状态迁移校验</text>
+<text x="106" y="946.6719999999999" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">条件更新</text>
+<rect x="452" y="878" width="332" height="112" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="458" y="921.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">文件工具（FileUtil）</text>
+<text x="458" y="934.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">图片校验与落盘</text>
+<text x="458" y="946.6719999999999" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">uploads/yyyyMM/uuid.ext</text>
+<rect x="804" y="878" width="332" height="112" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="810" y="921.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">令牌拦截器（JwtInterceptor）</text>
+<text x="810" y="934.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">令牌解析</text>
+<text x="810" y="946.6719999999999" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">当前用户注入</text>
+<rect x="1156" y="878" width="332" height="112" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="1162" y="921.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">全局异常处理（GlobalExceptionHandler）</text>
+<text x="1162" y="934.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">统一响应</text>
+<text x="1162" y="946.6719999999999" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">异常转换</text>
+<rect x="1508" y="878" width="332" height="112" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="1514" y="921.328" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">数据初始化（DataInitializer）</text>
+<text x="1514" y="934.0" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">启动时幂等创建</text>
+<text x="1514" y="946.6719999999999" font-family="Microsoft YaHei,SimHei" font-size="9.6" fill="#000000" dominant-baseline="central">管理员账号 admin</text>
+<text x="96" y="1042.0" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">注：虚线箭头表示「依赖 / 调用」。控制器只依赖业务接口，业务只依赖数据访问接口，便于替换实现与单元测试；实体类只在业务与数据访问之间传递，不向外暴露。</text>
+<path d="M 208.0,164 L 208.0,236" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 472.0,164 L 472.0,236" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 472.0,164 L 472,206 L 736,206 L 736.0,236" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1000.0,164 L 1000.0,236" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1000.0,164 L 1000,206 L 1264,206 L 1264.0,236" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1528.0,164 L 1528.0,236" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1792.0,164 L 1792.0,236" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 472.0,386 L 472.0,470" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 736.0,386 L 736.0,470" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1000.0,386 L 1000.0,470" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1264.0,386 L 1264.0,470" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1528.0,386 L 1528.0,470" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1792.0,386 L 1792.0,470" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 208.0,386 L 208,524 L 354,531.0" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1528.0,386 L 1528,430 L 1000,430 L 1000.0,470" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<rect x="1355.36" y="419.0" width="164" height="18" fill="#ffffff"/>
+<text x="1437.36" y="428.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">核验通过时条件更新物品状态</text>
+<path d="M 472.0,592 L 472.0,662" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 736.0,592 L 736.0,662" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1000.0,592 L 1000.0,662" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1264.0,592 L 1264.0,662" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1528.0,592 L 1528.0,662" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1792.0,592 L 1792.0,662" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 1000.0,592 L 1000,606 L 208,606 L 208.0,662" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M 86,105.6 L 330,105.6" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 350,105.6 L 594,105.6" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 878,105.6 L 1122,105.6" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1406,105.6 L 1650,105.6" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1670,105.6 L 1914,105.6" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 96,317.93600000000004 L 320,317.93600000000004" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 360,317.93600000000004 L 584,317.93600000000004" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 624,317.93600000000004 L 848,317.93600000000004" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 888,311.6 L 1112,311.6" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1152,317.93600000000004 L 1376,317.93600000000004" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1416,317.93600000000004 L 1640,317.93600000000004" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1680,317.93600000000004 L 1904,317.93600000000004" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 360,537.8040000000001 L 584,537.8040000000001" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 624,537.8040000000001 L 848,537.8040000000001" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 888,537.8040000000001 L 1112,537.8040000000001" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1152,537.8040000000001 L 1376,537.8040000000001" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1416,537.8040000000001 L 1640,537.8040000000001" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1680,537.8040000000001 L 1904,537.8040000000001" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 96,710.936 L 320,710.936" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 360,710.936 L 584,710.936" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 624,710.936 L 848,710.936" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 888,710.936 L 1112,710.936" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1152,710.936 L 1376,710.936" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1416,710.936 L 1640,710.936" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1680,710.936 L 1904,710.936" fill="none" stroke="#333333" stroke-width="1.1"/>
+</svg>

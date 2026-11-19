@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1328px" height="430px" viewBox="0 0 1328 430">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1328" height="430" fill="#ffffff"/>
+<rect x="560" y="16" width="220" height="46" fill="#F0F0F0" stroke="#333333" stroke-width="1.2"/>
+<text x="670.0" y="39.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="15" fill="#000000" dominant-baseline="central">校园失物招领系统</text>
+<rect x="20" y="120" width="200" height="42" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="120.0" y="141.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">M1 用户管理</text>
+<rect x="46" y="190" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="132.0" y="206.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">用户注册</text>
+<rect x="46" y="230" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="132.0" y="246.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">登录与退出</text>
+<rect x="46" y="270" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="132.0" y="286.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">个人资料维护</text>
+<rect x="46" y="310" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="132.0" y="326.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">修改密码</text>
+<rect x="46" y="350" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="132.0" y="366.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">我的发布/认领/留言</text>
+<rect x="46" y="390" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="132.0" y="406.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">账号状态管理</text>
+<rect x="240" y="120" width="200" height="42" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="340.0" y="141.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">M2 失物信息管理</text>
+<rect x="266" y="190" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="352.0" y="206.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发布失物信息</text>
+<rect x="266" y="230" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="352.0" y="246.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">图片上传与校验</text>
+<rect x="266" y="270" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="352.0" y="286.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">编辑失物信息</text>
+<rect x="266" y="310" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="352.0" y="326.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">下架与关闭</text>
+<rect x="460" y="120" width="200" height="42" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="560.0" y="141.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">M3 浏览与检索</text>
+<rect x="486" y="190" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="572.0" y="206.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">失物列表分页</text>
+<rect x="486" y="230" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="572.0" y="246.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">分类与条件筛选</text>
+<rect x="486" y="270" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="572.0" y="286.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">关键词搜索</text>
+<rect x="486" y="310" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="572.0" y="326.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">失物详情查看</text>
+<rect x="680" y="120" width="200" height="42" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="780.0" y="141.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">M4 认领与归还</text>
+<rect x="706" y="190" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="792.0" y="206.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发起认领申请</text>
+<rect x="706" y="230" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="792.0" y="246.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">认领核验通过</text>
+<rect x="706" y="270" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="792.0" y="286.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">认领核验拒绝</text>
+<rect x="706" y="310" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="792.0" y="326.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">物品状态流转</text>
+<rect x="706" y="350" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="792.0" y="366.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">待核验申请列表</text>
+<rect x="900" y="120" width="200" height="42" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000.0" y="141.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">M5 留言与消息</text>
+<rect x="926" y="190" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1012.0" y="206.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发表与删除留言</text>
+<rect x="926" y="230" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1012.0" y="246.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">站内消息列表</text>
+<rect x="926" y="270" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1012.0" y="286.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">消息已读处理</text>
+<rect x="926" y="310" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1012.0" y="326.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">未读数量提醒</text>
+<rect x="1120" y="120" width="200" height="42" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1220.0" y="141.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">M6 管理后台</text>
+<rect x="1146" y="190" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1232.0" y="206.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">信息审核</text>
+<rect x="1146" y="230" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1232.0" y="246.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">分类管理</text>
+<rect x="1146" y="270" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1232.0" y="286.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">用户账号管理</text>
+<rect x="1146" y="310" width="172" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1232.0" y="326.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">数据统计</text>
+<path d="M 670.0,62 L 670.0,96 L 120,96 L 120.0,120" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 120.0,162 L 30,162 L 30,206 L 46,206.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 120.0,162 L 30,162 L 30,246 L 46,246.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 120.0,162 L 30,162 L 30,286 L 46,286.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 120.0,162 L 30,162 L 30,326 L 46,326.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 120.0,162 L 30,162 L 30,366 L 46,366.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 120.0,162 L 30,162 L 30,406 L 46,406.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 670.0,62 L 670.0,96 L 340,96 L 340.0,120" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 340.0,162 L 250,162 L 250,206 L 266,206.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 340.0,162 L 250,162 L 250,246 L 266,246.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 340.0,162 L 250,162 L 250,286 L 266,286.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 340.0,162 L 250,162 L 250,326 L 266,326.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 670.0,62 L 670.0,96 L 560,96 L 560.0,120" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 560.0,162 L 470,162 L 470,206 L 486,206.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 560.0,162 L 470,162 L 470,246 L 486,246.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 560.0,162 L 470,162 L 470,286 L 486,286.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 560.0,162 L 470,162 L 470,326 L 486,326.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 670.0,62 L 670.0,96 L 780,96 L 780.0,120" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 780.0,162 L 690,162 L 690,206 L 706,206.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 780.0,162 L 690,162 L 690,246 L 706,246.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 780.0,162 L 690,162 L 690,286 L 706,286.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 780.0,162 L 690,162 L 690,326 L 706,326.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 780.0,162 L 690,162 L 690,366 L 706,366.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 670.0,62 L 670.0,96 L 1000,96 L 1000.0,120" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1000.0,162 L 910,162 L 910,206 L 926,206.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1000.0,162 L 910,162 L 910,246 L 926,246.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1000.0,162 L 910,162 L 910,286 L 926,286.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1000.0,162 L 910,162 L 910,326 L 926,326.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 670.0,62 L 670.0,96 L 1220,96 L 1220.0,120" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1220.0,162 L 1130,162 L 1130,206 L 1146,206.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1220.0,162 L 1130,162 L 1130,246 L 1146,246.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1220.0,162 L 1130,162 L 1130,286 L 1146,286.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+<path d="M 1220.0,162 L 1130,162 L 1130,326 L 1146,326.0" fill="none" stroke="#333333" stroke-width="1.1"/>
+</svg>

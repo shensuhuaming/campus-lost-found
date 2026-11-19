@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="878px" height="946px" viewBox="0 0 878 946">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="878" height="946" fill="#ffffff"/>
+<rect x="330" y="16" width="160" height="38" rx="19.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="35.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="14" fill="#000000" dominant-baseline="central">开始</text>
+<polygon points="314,82 520,82 506,138 300,138" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="101.75" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">接收 page、size、type、</text>
+<text x="410.0" y="118.25" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">categoryId、keyword</text>
+<rect x="300" y="172" width="220" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="191.75" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">参数默认化：page = 1、</text>
+<text x="410.0" y="208.25" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">size = 12（上限 50）</text>
+<rect x="290" y="262" width="240" height="60" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="283.75" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">构造基础条件：audit_status = 1</text>
+<text x="410.0" y="300.25" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">且 item_status ≠ 3</text>
+<polygon points="410.0,356 530,398.0 410.0,440 290,398.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="398.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="13" fill="#000000" dominant-baseline="central">keyword 非空？</text>
+<rect x="300" y="476" width="220" height="64" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="499.75" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">按发布时间排序</text>
+<text x="410.0" y="516.25" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">ORDER BY created_at DESC</text>
+<rect x="610" y="470" width="260" height="76" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="740.0" y="500.08000000000004" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">匹配 title LIKE ? OR description LIKE ?</text>
+<text x="740.0" y="515.9200000000001" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">标题命中优先，其次按时间倒序</text>
+<rect x="300" y="576" width="220" height="52" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="602.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">count 查询总条数</text>
+<rect x="300" y="654" width="220" height="52" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="680.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">selectPage 查询当前页记录</text>
+<rect x="285" y="732" width="250" height="60" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="753.75" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">组装 VO：封面图、分类名、</text>
+<text x="410.0" y="770.25" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12.5" fill="#000000" dominant-baseline="central">发布者昵称、状态文本</text>
+<polygon points="309,818 525,818 511,870 295,870" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="410.0" y="844.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">返回 {total, records, page, size}</text>
+<rect x="355" y="900" width="140" height="38" rx="19.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="425.0" y="919.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="14" fill="#000000" dominant-baseline="central">结束</text>
+<path d="M 410.0,54 L 410.0,82" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,138 L 410.0,172" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,228 L 410.0,262" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,322 L 410.0,356" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,540 L 410.0,576" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,628 L 410.0,654" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,706 L 410.0,732" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,792 L 410.0,818" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,870 L 410.0,885.0 L 425.0,885.0 L 425.0,900" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M 410.0,440 L 410.0,476" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="400.0" y="449.0" width="20" height="18" fill="#ffffff"/>
+<text x="410.0" y="458.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">否</text>
+<path d="M 530,398.0 L 570.0,398.0 L 570.0,508.0 L 610,508.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="560.0" y="444.0" width="20" height="18" fill="#ffffff"/>
+<text x="570.0" y="453.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">是</text>
+<path d="M 740.0,546 L 740,602 L 520,602" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+</svg>
