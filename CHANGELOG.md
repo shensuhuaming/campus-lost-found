@@ -8,6 +8,9 @@
 ## [Unreleased]
 
 ### 新增
+- 留言与站内消息 M5：`POST /api/comments` 发表留言（通知发布者，自己留言不打扰）、`DELETE /api/comments/{id}` 删除（本人或管理员）、`GET /api/messages` 消息列表（只看自己、可按已读与类型筛选）、`PUT /api/messages/{id}/read` 标记已读（幂等）、`GET /api/messages/unread-count` 未读数
+- 前端：详情页留言输入与删除、`/messages` 消息中心（全部/未读/已读筛选、点击已读）、导航栏未读角标（60 秒轮询）
+- 单元测试新增 19 个（CommentService 7 / MessageService 7 / Controller 5），合计 112
 - 认领与核验 M4：`POST /api/claims` 发起认领（防重复 3003、非本人 3001、仅拾物、未过审 2004，物品进入处理中并通知发布者）、`GET /api/claims` 核验列表（管理员，三表关联，默认待核验）、`PUT /api/claims/{id}/approve` 通过（物品置已完成、其余申请自动拒绝并通知）、`PUT /api/claims/{id}/reject` 拒绝（必填理由，无其他待核验时物品退回进行中）
 - 前端：详情页认领弹窗（已申请置灰）、`/admin/claims` 核验页（状态页签/关键词/通过/拒绝）、管理员导航与路由守卫
 - 单元测试新增 20 个（ClaimService 15 / ClaimController 5），合计 93

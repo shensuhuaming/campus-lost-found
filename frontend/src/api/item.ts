@@ -23,6 +23,7 @@ export interface ItemCard {
 
 export interface ItemComment {
   id: number
+  userId: number
   nickname: string | null
   content: string
   createdAt: string

@@ -380,7 +380,7 @@ public class ItemServiceImpl implements ItemService {
         Map<Long, User> users = userMapper.selectBatchIds(list.stream()
                         .map(Comment::getUserId).collect(Collectors.toSet()))
                 .stream().collect(Collectors.toMap(User::getId, Function.identity(), (a, b) -> a));
-        return list.stream().map(c -> new CommentBriefVO(c.getId(),
+        return list.stream().map(c -> new CommentBriefVO(c.getId(), c.getUserId(),
                 users.containsKey(c.getUserId()) ? users.get(c.getUserId()).getNickname() : null,
                 c.getContent(), c.getCreatedAt())).toList();
     }

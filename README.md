@@ -181,6 +181,7 @@ campus-lost-found/
 - `.gitignore`、`.editorconfig`、环境变量模板。
 - **用户认证**：`POST /api/auth/register`、`/login`（JWT 12h）、`/logout`；管理员启动自动创建（`admin` / `Admin@123`，`ADMIN_INIT_PASSWORD` 可覆盖）。
 - **个人中心**：`GET/PUT /api/user/profile`、`PUT /api/user/password`、`GET /api/user/{items,claims,comments}`；前端 `/login` 注册登录、`/profile` 个人中心（未登录由路由守卫跳转）。
+- **留言与消息**：`POST /api/comments`、`DELETE /api/comments/{id}`、`GET /api/messages`、`PUT /api/messages/{id}/read`、`GET /api/messages/unread-count`；前端详情页留言、`/messages` 消息中心与未读角标。
 - **认领与核验**：`POST /api/claims`、`GET /api/claims`（管理员）、`PUT /api/claims/{id}/approve|reject`；前端在详情页发起认领，`/admin/claims` 供管理员核验。
 - **失物信息与检索**：`POST /api/items`、`PUT /api/items/{id}`、`PUT /api/items/{id}/close`、`PUT /api/items/{id}/status`、`GET /api/items`、`GET /api/items/{id}`、`GET /api/categories`、`POST /api/upload/image`；前端 `/`（列表筛选搜索）、`/items/:id`（详情）、`/items/new`（发布）。
 

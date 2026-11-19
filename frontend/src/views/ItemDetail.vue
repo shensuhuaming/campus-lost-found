@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import { advanceItem, closeItem, getItem, type ItemDetail } from '@/api/item'
 import { createClaim } from '@/api/claim'
+import { createComment, deleteComment } from '@/api/comment'
 import { useAuthStore } from '@/stores/auth'
 
 const route = useRoute()
@@ -112,6 +113,47 @@ async function submitClaim() {
   }
 }
 
+const newComment = ref('')
+const commentLoading = ref(false)
+
+async function submitComment() {
+  if (!auth.isLoggedIn) {
+    router.push({ path: '/login', query: { redirect: route.fullPath } })
+    return
+  }
+  const content = newComment.value.trim()
+  if (!content) {
+    ElMessage.warning('请输入留言内容')
+    return
+  }
+  commentLoading.value = true
+  try {
+    await createComment(id.value, content)
+    ElMessage.success('留言已发表')
+    newComment.value = ''
+    await load()
+  } catch (e) {
+    ElMessage.error((e as Error).message)
+  } finally {
+    commentLoading.value = false
+  }
+}
+
+async function onDeleteComment(commentId: number) {
+  try {
+    await ElMessageBox.confirm('确定删除这条留言？', '提示', { type: 'warning' })
+  } catch {
+    return
+  }
+  try {
+    await deleteComment(commentId)
+    ElMessage.success('留言已删除')
+    await load()
+  } catch (e) {
+    ElMessage.error((e as Error).message)
+  }
+}
+
 onMounted(load)
 </script>
 
@@ -175,10 +217,23 @@ onMounted(load)
       </el-row>
 
       <el-divider content-position="left">留言（{{ detail.comments.length }}）</el-divider>
+
+      <div class="comment-box">
+        <el-input v-model="newComment" type="textarea" :rows="2" maxlength="200" show-word-limit
+                  :placeholder="auth.isLoggedIn ? '询问物品细节，留言会通知发布者' : '登录后可留言'" />
+        <div class="comment-actions">
+          <el-button type="primary" size="small" :loading="commentLoading"
+                     :disabled="!auth.isLoggedIn || !newComment.trim()" @click="submitComment">发表留言</el-button>
+          <span v-if="!auth.isLoggedIn" class="muted">登录后才能留言</span>
+        </div>
+      </div>
+
       <el-empty v-if="detail.comments.length === 0" description="还没有留言" :image-size="60" />
       <div v-for="c in detail.comments" :key="c.id" class="comment-item">
         <span class="comment-author">{{ c.nickname ?? '匿名用户' }}</span>
         <span class="muted">{{ c.createdAt }}</span>
+        <el-button v-if="auth.isLoggedIn && (auth.user?.id === c.userId || auth.isAdmin)"
+                   link type="danger" size="small" @click="onDeleteComment(c.id)">删除</el-button>
         <div>{{ c.content }}</div>
       </div>
     </el-card>
