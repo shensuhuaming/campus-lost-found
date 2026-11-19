@@ -8,6 +8,8 @@
 ## [Unreleased]
 
 ### 新增
+- 个人中心 U1.4~U1.6：`GET/PUT /api/user/profile`、`PUT /api/user/password`、`GET /api/user/{items,claims,comments}`（统一分页结构，列表补齐分类名/封面/认领数/物品标题）
+- 前端登录/注册页（`/login`）、个人中心页（`/profile`，5 个页签）、布局与导航；路由守卫按登录态拦截；axios 拦截器自动带 token、401 清登录态并跳转
 - 用户认证模块 U1.1~U1.3：`POST /api/auth/register`、`POST /api/auth/login`（JWT，12 小时）、`POST /api/auth/logout`
 - 公共基座：`Result`/`ResultCode`（21 个业务码 + HTTP 映射）、`BusinessException`、全局异常处理按错误码返回
 - JWT 鉴权拦截器：校验签名/有效期 + 查库校验禁用状态，写入 ThreadLocal；`SecurityUtil` 提供当前用户

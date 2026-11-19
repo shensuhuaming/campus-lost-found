@@ -180,6 +180,7 @@ campus-lost-found/
 - JUnit 5 切片测试示例、JaCoCo 覆盖率（`mvn verify` 出报表）、GitHub Actions CI；
 - `.gitignore`、`.editorconfig`、环境变量模板。
 - **用户认证**：`POST /api/auth/register`、`/login`（JWT 12h）、`/logout`；管理员启动自动创建（`admin` / `Admin@123`，`ADMIN_INIT_PASSWORD` 可覆盖）。
+- **个人中心**：`GET/PUT /api/user/profile`、`PUT /api/user/password`、`GET /api/user/{items,claims,comments}`；前端 `/login` 注册登录、`/profile` 个人中心（未登录由路由守卫跳转）。
 
 > Docker 全栈已验证可跑：`docker compose --profile full up -d --build` 后访问 `http://localhost` 可见首页自检为「后端 UP / 数据库 UP」。
 

@@ -21,6 +21,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.dao.DuplicateKeyException;
+import com.baomidou.mybatisplus.core.MybatisConfiguration;
+import com.baomidou.mybatisplus.core.metadata.TableInfoHelper;
+import org.apache.ibatis.builder.MapperBuilderAssistant;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -49,6 +52,12 @@ class AuthServiceImplTest {
     private AuthServiceImpl authService;
 
     private RegisterDTO registerDTO;
+
+
+    /** 纯 Mockito 测试没有 Spring 容器，需手动初始化 MyBatis-Plus 的字段缓存（lambda 条件要用）。 */
+    static {
+        TableInfoHelper.initTableInfo(new MapperBuilderAssistant(new MybatisConfiguration(), ""), User.class);
+    }
 
     @BeforeEach
     void setUp() {

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import { getHealth, SUCCESS_CODE, type HealthInfo } from '@/api/system'
+import { getHealth, type HealthInfo } from '@/api/system'
 
 type ProbeState = 'loading' | 'ok' | 'fail'
 
@@ -13,14 +13,8 @@ async function probeBackend() {
   backend.value = 'loading'
   backendError.value = ''
   try {
-    const res = await getHealth()
-    if (res.code === SUCCESS_CODE) {
-      backend.value = 'ok'
-      backendInfo.value = res.data
-    } else {
-      backend.value = 'fail'
-      backendError.value = res.message
-    }
+    backendInfo.value = await getHealth()
+    backend.value = 'ok'
   } catch (e) {
     backend.value = 'fail'
     backendError.value = e instanceof Error ? e.message : String(e)
