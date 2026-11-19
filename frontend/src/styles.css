@@ -111,3 +111,137 @@ body {
   color: var(--clf-muted);
   font-size: 12px;
 }
+
+
+/* ===== 布局 ===== */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 24px;
+  height: 56px;
+  background: #fff;
+  border-bottom: 1px solid #ebeef5;
+}
+
+.brand {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--clf-brand);
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  flex: 1;
+}
+
+.nav-link {
+  color: #606266;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-link.router-link-active {
+  color: var(--clf-brand);
+  font-weight: 600;
+}
+
+.layout-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nickname {
+  font-size: 13px;
+  color: #303133;
+}
+
+.layout-main {
+  flex: 1;
+}
+
+/* ===== 登录页 ===== */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #eef4ff 0%, #f6f8fb 100%);
+  padding: 24px;
+}
+
+.auth-card {
+  width: 420px;
+  max-width: 100%;
+}
+
+.auth-brand {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.auth-brand h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.auth-submit {
+  width: 100%;
+}
+
+.auth-tip {
+  margin-top: 14px;
+}
+
+/* ===== 个人中心 ===== */
+.card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.stats {
+  margin-top: 4px;
+}
+
+.stat {
+  border: 1px solid #ebeef5;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--clf-brand);
+}
+
+.cover {
+  width: 56px;
+  height: 42px;
+  border-radius: 4px;
+}
+
+.pager {
+  margin-top: 12px;
+  justify-content: flex-end;
+}
+
+.narrow-form {
+  max-width: 420px;
+  margin-top: 8px;
+}

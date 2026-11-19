@@ -1,28 +1,6 @@
-import axios from 'axios'
+import { request } from './http'
 
-/**
- * 统一 axios 实例。
- * 约定：后端统一响应体 { code, message, data }，code=200 为成功（见《API接口详细规格》1.2）。
- * 401/403 的跳转逻辑待鉴权方案确定后在此拦截器统一处理。
- */
-const http = axios.create({
-  baseURL: '/api',
-  timeout: 10000,
-})
-
-http.interceptors.response.use(
-  (response) => response.data,
-  (error) => Promise.reject(error),
-)
-
-/** 成功码（对齐后端 API 契约，勿改为 0） */
-export const SUCCESS_CODE = 200
-
-export interface ApiResult<T> {
-  code: number
-  message: string
-  data: T
-}
+export { SUCCESS_CODE } from './http'
 
 export interface DbHealth {
   status: string
@@ -37,9 +15,9 @@ export interface HealthInfo {
   database: DbHealth
 }
 
-/** 后端自检接口（环境验证用） */
-export function getHealth(): Promise<ApiResult<HealthInfo>> {
-  return http.get('/system/health')
+/** 后端自检接口（环境验证用）。 */
+export function getHealth(): Promise<HealthInfo> {
+  return request.get<HealthInfo>('/system/health')
 }
 
-export default http
+export default request
