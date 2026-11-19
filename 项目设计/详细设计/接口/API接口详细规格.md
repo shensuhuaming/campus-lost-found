@@ -1,7 +1,7 @@
 # 校园失物招领系统 接口详细规格
 
 > 版本 V1.0　日期 2026-11　对应文档：《详细设计说明书》第 6 章
-> 本文档细化《概要设计说明书》4.2 节列出的 32 个接口，并补充 1 个认领核验列表查询接口（GET /api/claims），共 33 个，供编码与接口测试直接使用。
+> 本文档细化《概要设计说明书》4.2 节列出的 32 个接口，并补充 3 个：认领核验列表（GET /api/claims）、寻物状态推进（PUT /api/items/{id}/status）、公开分类列表（GET /api/categories），共 35 个，供编码与接口测试直接使用。
 
 ## 1 通用约定
 
@@ -302,7 +302,7 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 
 ---
 
-## 3 失物信息接口（4 个）
+## 3 失物信息接口（5 个）
 
 ### 3.1 发布信息
 
@@ -317,7 +317,7 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 | happenTime | string | 是 | 不晚于当前时间 + 1 天 |
 | happenPlace | string | 是 | 1~100 字 |
 | contact | string | 是 | 1~50 字（手机号或微信/QQ） |
-| imageUrls | string[] | 否 | ≤3 个，元素须为 `/uploads/` 开头且为本系统返回的路径 |
+| imageUrls | string[] | 否 | ≤3 个；元素须匹配 `^/uploads/\d{6}/[0-9a-f]{32}\.(jpg\|jpeg\|png)$`、文件存在、且未被其他信息引用（编辑时排除本条），不满足返回 1001 |
 
 ```json
 {
@@ -358,9 +358,15 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 
 `PUT /api/items/{id}/close`　权限：发布者本人或管理员
 
-请求体：无。响应：`data` 为 `null`。
+请求体：
 
-业务规则：物品状态须为 0（进行中）或 1（处理中），更新为 3（已关闭）；由处理中关闭时，将同物品所有 `status=0` 的认领申请置为 2（拒绝）并推送消息（type=4）；已关闭/已完成重复调用返回 2003（幂等提示"该信息已关闭"）。
+| 字段 | 类型 | 必填 | 校验规则 |
+|---|---|---|---|
+| reason | string | 管理员必填 | 1~100 字，写入 `lost_item.close_reason`；发布者关闭时可省略 |
+
+响应：`data` 为 `null`。
+
+业务规则：物品状态须为 0（进行中）或 1（处理中），更新为 3（已关闭）并写入 `close_reason`；管理员未填理由或超过 100 字返回 1001；由处理中关闭时，将同物品所有 `status=0` 的认领申请置为 2（拒绝）并推送消息（type=4）；已关闭/已完成重复调用返回 2003（幂等提示"该信息已关闭"）。
 
 ### 3.4 图片上传
 
@@ -382,9 +388,28 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 
 业务规则：存储路径 `{user.dir}/uploads/yyyyMM/{uuid}.{ext}`，目录不存在时先创建；文件名使用 UUID，不使用原始文件名（防路径穿越与重名）；返回相对 URL。
 
+### 3.5 寻物状态推进
+
+`PUT /api/items/{id}/status`　权限：发布者本人或管理员
+
+| 字段 | 类型 | 必填 | 校验规则 |
+|---|---|---|---|
+| targetStatus | int | 是 | 1-处理中（已联系到拾到者）、2-已完成（已找回） |
+
+请求示例：`{ "targetStatus": 1 }`
+
+响应：`data` 为 `{ "id": 101, "itemStatus": 1 }`。
+
+业务规则：
+- 仅 `type=0`（寻物）且 `audit_status=1` 的信息可用；对拾物调用返回 2003（拾物走 5.1、5.3、5.4 的认领链路）；
+- 仅 `0→1`（已联系到拾到者）、`1→2`（已找回）合法，跳级（0→2）或终态再推进返回 2003；
+- 非发布者且非管理员返回 2002；信息不存在返回 2004；
+- 采用条件更新（`WHERE item_status = 原值`），并发冲突影响行数不为 1 时返回 2003；
+- 成功后给发布者插入一条系统通知（type=5）。
+
 ---
 
-## 4 浏览与检索接口（2 个）
+## 4 浏览与检索接口（3 个）
 
 ### 4.1 失物信息列表
 
@@ -454,6 +479,25 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 - 未登录时 `contact` 返回掩码（中间 4 位用 `*` 代替），`myClaimStatus` 为 `null`；
 - 未通过审核（`audit_status<>1`）的信息仅发布者与管理员可见，其他角色返回 2004；
 - `myClaimStatus` 为当前登录用户对该物品的认领状态（0/1/2），未申请为 `null`，用于前端按钮置灰与提示。
+### 4.3 分类列表（公开）
+
+`GET /api/categories`　权限：公开
+
+响应：
+
+```json
+{
+  "code": 200,
+  "message": "success",
+  "data": [
+    { "id": 1, "name": "证件", "sort": 1 },
+    { "id": 2, "name": "电子产品", "sort": 2 }
+  ]
+}
+```
+
+业务规则：按 `sort` 升序返回全部分类，不含统计字段；用于首页筛选栏与发布/编辑页的分类下拉。管理端分类列表（含 `itemCount`）见 7.3。
+
 ---
 
 ## 5 认领接口（4 个）
@@ -641,6 +685,7 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 | page / size | int | 否 | 分页 |
 | auditStatus | int | 否 | 默认 0（待审核），可传 1/2 查看历史 |
 | keyword | string | 否 | 标题或发布者昵称模糊匹配 |
+| — | — | — | 固定条件：`item_status <> 3`，已关闭的待审核信息不进入待审队列 |
 
 响应 `records` 元素：
 
@@ -676,7 +721,7 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 { "code": 200, "message": "success", "data": { "id": 101, "auditStatus": 2, "itemStatus": 0 } }
 ```
 
-业务规则：仅 `audit_status=0` 的信息可审核，重复审核返回 2003；通过时写 `audit_status=1`、清空 `reject_reason`；驳回时写 `audit_status=2` 与原因，物品状态保持进行中；两种结果均向发布者插入消息（type=1）。
+业务规则：仅 `audit_status=0` 且 `item_status<>3` 的信息可审核，已关闭的信息返回 2003，重复审核返回 2003；通过时写 `audit_status=1`、清空 `reject_reason`；驳回时写 `audit_status=2` 与原因，物品状态保持进行中；两种结果均向发布者插入消息（type=1）。
 
 ### 7.3 分类列表
 
@@ -763,7 +808,7 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 
 | 参数 | 类型 | 必填 | 说明 |
 |---|---|---|---|
-| days | int | 否 | 趋势统计天数，默认 7，范围 7~30 |
+| days | int | 否 | 趋势统计天数，**默认 30**（对齐 FR-20），范围 7~30 |
 
 响应：
 
@@ -789,7 +834,7 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 
 指标口径：
 - `totalItems`：`lost_item` 全表记录数（含各状态）；
-- `pendingAudit`：`audit_status = 0` 的记录数；
+- `pendingAudit`：`audit_status = 0 AND item_status <> 3` 的记录数（已关闭的待审核信息不计入）；
 - `completedClaims`：`claim.status = 1` 的记录数；
 - `returnRate`：`item_status = 2` 的拾物数 ÷ `audit_status = 1` 的拾物总数 × 100，保留 1 位小数，分母为 0 时返回 0；
 - `trend`：按 `DATE(created_at)` 分组统计区间内每日发布量，无数据的日期补 0，日期升序。
@@ -811,12 +856,12 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 | 9 | GET /api/user/comments | U1.6 | FR-03、FR-16 |
 | 10 | POST /api/items | U2.1 | FR-05 |
 | 11 | PUT /api/items/{id} | U2.3 | FR-06 |
-| 12 | PUT /api/items/{id}/close | U4.5 | FR-15 |
+| 12 | PUT /api/items/{id}/close | U2.4 | FR-15 |
 | 13 | POST /api/upload/image | U2.2 | FR-07 |
 | 14 | GET /api/items | U3.1、U3.2 | FR-08、FR-09、FR-10 |
 | 15 | GET /api/items/{id} | U3.3 | FR-11 |
 | 16 | POST /api/claims | U4.2 | FR-13 |
-| 17 | GET /api/claims | U4.3、U4.4 | FR-14 |
+| 17 | GET /api/claims | U4.5 | FR-14 |
 | 18 | PUT /api/claims/{id}/approve | U4.3、U4.1 | FR-14、FR-12 |
 | 19 | PUT /api/claims/{id}/reject | U4.4、U4.1 | FR-14、FR-12 |
 | 20 | POST /api/comments | U5.1 | FR-16 |
@@ -833,3 +878,5 @@ HTTP 状态码与业务码配合使用：成功一律返回 HTTP 200（`code=200
 | 31 | GET /api/admin/users | U6.3、U1.7 | FR-04 |
 | 32 | PUT /api/admin/users/{id}/status | U1.7 | FR-04 |
 | 33 | GET /api/admin/stats | U6.4 | FR-20 |
+| 34 | PUT /api/items/{id}/status | U2.5 | FR-12 |
+| 35 | GET /api/categories | U6.2 | FR-09 |

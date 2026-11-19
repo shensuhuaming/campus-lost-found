@@ -4,7 +4,10 @@
 # ---------- 构建阶段 ----------
 FROM maven:3.9-eclipse-temurin-17 AS build
 WORKDIR /build
-COPY . .
+# 先只拷贝 pom 与镜像配置，依赖层可缓存，源码改动不再重复下载依赖
+COPY maven-settings.xml pom.xml ./
+RUN mvn -s maven-settings.xml -B -q -DskipTests dependency:go-offline || true
+COPY src ./src
 RUN mvn -s maven-settings.xml -B -q -DskipTests package
 
 # ---------- 运行阶段 ----------

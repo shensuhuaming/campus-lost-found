@@ -3,7 +3,7 @@
 > 软件工程综合实践 · 7 人小组项目
 > 覆盖「发布 → 检索 → 认领 → 归还」全流程的校园失物招领 Web 系统
 
-**当前状态：环境基座已完成，业务功能待《详细设计 / 接口文档》评审后实现。**
+**当前状态：环境基座已按《详细设计》对齐（成功码 200、库名 lost_found、关闭理由字段等），业务功能待实现。**
 
 ---
 
@@ -54,6 +54,18 @@ docker compose --profile full stop          # 停止，保留数据
 docker compose --profile full down -v       # 彻底重置（删除数据卷，重新执行 db/init）
 ```
 
+**默认账号**：管理员 `admin` / `Admin@123`（由后端 `DataInitializer` 首次启动创建；
+生产部署用环境变量 `ADMIN_INIT_PASSWORD` 覆盖，登录后请立即改密）。
+
+**数据库**：`lost_found`，字符集 `utf8mb4`、排序规则 `utf8mb4_general_ci`；
+建表脚本 `db/init/01-schema.sql` 直接同步自《详细设计》的 `lost_found.sql`（含 6 条分类种子）。
+
+**图片**：按详细设计存后端 `{user.dir}/uploads`，compose 已挂 `clf-uploads` 卷，nginx 反代 `/uploads`；
+演示环境可用以下命令清理孤儿图片（未被任何信息引用、且超过 7 天）：
+```bash
+docker exec clf-backend sh -c "find /app/uploads -type f -mtime +7"
+```
+
 ### 2. 后端开发（IntelliJ IDEA 2025.3）
 
 1. 打开 `backend/pom.xml`（或 `backend` 目录）作为 Maven 项目；
@@ -61,7 +73,7 @@ docker compose --profile full down -v       # 彻底重置（删除数据卷，�
    ⚠️ 本机 `JAVA_HOME` 默认指向 Java 21，务必在 IDEA 里显式指定 17。
 3. 先只起数据库：`docker compose up -d mysql`；
 4. 运行 `LostFoundApplication`，访问 `http://localhost:8080/api/system/health`；
-   正常返回：`{"code":0,...,"data":{"status":"UP","database":{"status":"UP"}}}`。
+   正常返回：`{"code":200,...,"data":{"status":"UP","database":{"status":"UP"}}}`（成功码 200，见《API接口详细规格》1.2）。
    本机默认连接 `localhost:3307`（用户 `clf` / 密码 `change-me`，见 `.env`）。
 
 > **Maven 注意**：本机 `Maven 安装目录\conf\settings.xml` 把 `localRepository` 指向了
@@ -97,7 +109,7 @@ campus-lost-found/
 │  ├─ src/views/             # 页面（当前为环境自检首页）
 │  ├─ src/api/               # axios 封装与接口定义
 │  └─ Dockerfile / nginx.conf
-├─ db/init/                  # 建表与种子数据（MySQL 容器首次启动自动执行）
+├─ db/init/                  # 建表脚本（同步自详细设计 lost_found.sql；容器首次启动自动执行）
 ├─ docker/README.md          # 容器环境说明与常见问题
 ├─ docker-compose.yml        # 三套环境编排
 ├─ CHANGELOG.md              # 版本级变更日志（使用者和测试同学看这个）

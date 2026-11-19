@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import { getHealth, type HealthInfo } from '@/api/system'
+import { getHealth, SUCCESS_CODE, type HealthInfo } from '@/api/system'
 
 type ProbeState = 'loading' | 'ok' | 'fail'
 
@@ -14,7 +14,7 @@ async function probeBackend() {
   backendError.value = ''
   try {
     const res = await getHealth()
-    if (res.code === 0) {
+    if (res.code === SUCCESS_CODE) {
       backend.value = 'ok'
       backendInfo.value = res.data
     } else {

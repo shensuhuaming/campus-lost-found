@@ -30,13 +30,13 @@ class SystemControllerTest {
     private JdbcTemplate jdbcTemplate;
 
     @Test
-    @DisplayName("数据库可用时：健康检查返回 code=0、status=UP、database.status=UP")
+    @DisplayName("数据库可用时：健康检查返回 code=200、status=UP、database.status=UP")
     void health_returnsOk() throws Exception {
         when(jdbcTemplate.queryForObject(anyString(), eq(Integer.class))).thenReturn(1);
 
         mockMvc.perform(get("/api/system/health"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.code").value(0))
+                .andExpect(jsonPath("$.code").value(200))
                 .andExpect(jsonPath("$.data.status").value("UP"))
                 .andExpect(jsonPath("$.data.database.status").value("UP"));
     }
@@ -49,7 +49,7 @@ class SystemControllerTest {
 
         mockMvc.perform(get("/api/system/health"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.code").value(0))
+                .andExpect(jsonPath("$.code").value(200))
                 .andExpect(jsonPath("$.data.database.status").value("DOWN"));
     }
 }

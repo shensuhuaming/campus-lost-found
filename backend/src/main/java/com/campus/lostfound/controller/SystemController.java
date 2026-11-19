@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.OffsetDateTime;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -40,7 +41,7 @@ public class SystemController {
         body.put("app", appName);
         body.put("status", "UP");
         body.put("javaVersion", System.getProperty("java.version"));
-        body.put("timestamp", OffsetDateTime.now().toString());
+        body.put("timestamp", LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
         body.put("database", checkDatabase());
         return ApiResponse.ok(body);
     }

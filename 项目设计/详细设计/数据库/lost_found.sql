@@ -7,7 +7,8 @@
 --    1) 本脚本可重复执行：先按外键依赖的逆序删除表，再依次创建 7 张业务表。
 --    2) 脚本末尾写入 6 条物品分类的初始数据；管理员账号不在此处硬编码密文，
 --       由应用启动时由 DataInitializer 幂等创建（见文末说明），避免明文/伪密文入库。
---    3) 所有表均使用 BIGINT 主键、DATETIME 时间戳，注释与字段一一对应
+--    3) lost_item.close_reason 存放关闭/下架理由（管理员下架必填），与 reject_reason 语义分开
+--    4) 所有表均使用 BIGINT 主键、DATETIME 时间戳，注释与字段一一对应
 --       《详细设计说明书》5.x 节。
 -- =============================================================================
 
@@ -38,7 +39,7 @@ CREATE TABLE `user` (
     `student_no` VARCHAR(20)     NOT NULL                COMMENT '学号/工号，登录账号，6~12 位',
     `password`   VARCHAR(100)    NOT NULL                COMMENT 'BCrypt 密文（$2a$10$...，60 字符）',
     `nickname`   VARCHAR(30)     NOT NULL                COMMENT '昵称，2~12 字',
-    `phone`      VARCHAR(20)     NOT NULL                COMMENT '手机号，11 位',
+    `phone`      VARCHAR(20)     NOT NULL                COMMENT '联系方式，5~20 位（手机号 / QQ / 微信）',
     `role`       TINYINT         NOT NULL DEFAULT 0      COMMENT '角色：0-学生 1-管理员',
     `status`     TINYINT         NOT NULL DEFAULT 0      COMMENT '状态：0-正常 1-禁用',
     `created_at` DATETIME        NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '注册时间',
@@ -78,6 +79,7 @@ CREATE TABLE `lost_item` (
     `contact`       VARCHAR(50)     NOT NULL                COMMENT '联系方式，仅登录用户可见',
     `audit_status`  TINYINT         NOT NULL DEFAULT 0      COMMENT '审核状态：0-待审核 1-通过 2-驳回',
     `reject_reason` VARCHAR(100)    NULL                    COMMENT '驳回原因，仅 audit_status=2 时有值，1~100 字',
+    `close_reason`  VARCHAR(200)    NULL                    COMMENT '关闭/下架理由，管理员下架时必填，1~100 字',
     `item_status`   TINYINT         NOT NULL DEFAULT 0      COMMENT '物品状态：0-进行中 1-处理中 2-已完成 3-已关闭',
     `created_at`    DATETIME        NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '发布时间',
     `updated_at`    DATETIME        NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',

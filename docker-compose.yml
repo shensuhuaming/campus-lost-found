@@ -24,7 +24,7 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-change-me-root}
-      MYSQL_DATABASE: ${MYSQL_DATABASE:-campus_lost_found}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-lost_found}
       MYSQL_USER: ${MYSQL_USER:-clf}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD:-change-me}
       TZ: Asia/Shanghai
@@ -61,11 +61,15 @@ services:
     environment:
       SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-docker}
       # 容器内用服务名 mysql 访问，端口是 3306
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/${MYSQL_DATABASE:-campus_lost_found}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/${MYSQL_DATABASE:-lost_found}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
       SPRING_DATASOURCE_USERNAME: ${MYSQL_USER:-clf}
       SPRING_DATASOURCE_PASSWORD: ${MYSQL_PASSWORD:-change-me}
       JWT_SECRET: ${JWT_SECRET:-dev-only-secret-change-in-production}
+      ADMIN_INIT_PASSWORD: ${ADMIN_INIT_PASSWORD:-Admin@123}
       TZ: Asia/Shanghai
+    volumes:
+      # 图片按详细设计存 {user.dir}/uploads，挂卷保证容器重建后不丢图
+      - uploads:/app/uploads
     ports:
       - "${BACKEND_PORT:-8080}:8080"
     healthcheck:
@@ -96,6 +100,8 @@ services:
 volumes:
   mysql-data:
     name: clf-mysql-data
+  uploads:
+    name: clf-uploads
 
 networks:
   clf-net:
