@@ -15,6 +15,7 @@ import {
   type PageResult,
   type Profile,
 } from '@/api/user'
+import { advanceItem, closeItem } from '@/api/item'
 import { useAuthStore } from '@/stores/auth'
 
 const auth = useAuthStore()
@@ -119,6 +120,44 @@ async function onChangePassword() {
   }
 }
 
+function goEdit(id: number) {
+  router.push(`/items/${id}/edit`)
+}
+
+async function onAdvance(row: ItemRow) {
+  const target = row.itemStatus === 0 ? 1 : 2
+  const tip = target === 1 ? '标记为「已联系到拾到者」？' : '标记为「已找回」？'
+  try {
+    await ElMessageBox.confirm(tip, '提示', { type: 'warning' })
+  } catch {
+    return
+  }
+  try {
+    await advanceItem(row.id, target)
+    ElMessage.success('状态已更新')
+  } catch (e) {
+    ElMessage.error((e as Error).message)
+  }
+  await loadItems(items.value.page)
+  await loadProfile()
+}
+
+async function onCloseItem(id: number) {
+  try {
+    await ElMessageBox.confirm('关闭后信息不再展示，确定关闭？', '提示', { type: 'warning' })
+  } catch {
+    return
+  }
+  try {
+    await closeItem(id)
+    ElMessage.success('信息已关闭')
+  } catch (e) {
+    ElMessage.error((e as Error).message)
+  }
+  await loadItems(items.value.page)
+  await loadProfile()
+}
+
 onMounted(async () => {
   loading.value = true
   try {
@@ -172,6 +211,15 @@ onMounted(async () => {
             <el-table-column prop="itemStatusText" label="状态" width="90" />
             <el-table-column prop="claimCount" label="认领数" width="80" />
             <el-table-column prop="createdAt" label="发布时间" width="170" />
+            <el-table-column label="操作" width="160">
+              <template #default="{ row }">
+                <el-button v-if="row.itemStatus === 0" link type="primary" size="small" @click="goEdit(row.id)">编辑</el-button>
+                <el-button v-if="row.type === 0 && row.itemStatus <= 1" link type="warning" size="small"
+                           @click="onAdvance(row)">推进</el-button>
+                <el-button v-if="row.itemStatus <= 1" link type="danger" size="small"
+                           @click="onCloseItem(row.id)">关闭</el-button>
+              </template>
+            </el-table-column>
           </el-table>
           <el-pagination
             v-if="items.total > items.size"

@@ -245,3 +245,159 @@ body {
   max-width: 420px;
   margin-top: 8px;
 }
+
+
+/* ===== 首页列表 ===== */
+.home-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.home-title {
+  margin: 0 0 4px;
+  font-size: 22px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.item-grid {
+  margin-top: 16px;
+  min-height: 120px;
+}
+
+.item-card {
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.item-card :deep(.el-card__body) {
+  padding: 0;
+}
+
+.item-cover {
+  height: 140px;
+  background: #f5f7fa;
+}
+
+.cover-img {
+  width: 100%;
+  height: 140px;
+}
+
+.cover-placeholder {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c0c4cc;
+  font-size: 13px;
+}
+
+.item-body {
+  padding: 10px 12px 12px;
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.item-tags {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+/* ===== 详情 ===== */
+.detail-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.detail-title {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.detail-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.detail-images {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detail-image {
+  width: 100%;
+  height: 220px;
+  border-radius: 6px;
+}
+
+.detail-desc {
+  margin-top: 12px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  color: #303133;
+}
+
+.comment-item {
+  padding: 8px 0;
+  border-bottom: 1px dashed #ebeef5;
+  font-size: 13px;
+}
+
+.comment-author {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+/* ===== 发布/编辑 ===== */
+.narrow-form-wide {
+  max-width: 640px;
+}
+
+.upload-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.upload-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.upload-thumb {
+  width: 96px;
+  height: 72px;
+  border-radius: 4px;
+  border: 1px solid #ebeef5;
+}
