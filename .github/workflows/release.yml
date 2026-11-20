@@ -1,0 +1,40 @@
+name: Release
+
+# 推送 v* 标签时自动创建 GitHub Release：
+#   正文优先取 .github/release-notes/<tag>.md，没有则用自动生成的变更说明。
+# 说明：本地使用的 PAT 只有只读权限，无法调用 Releases API，因此把发布动作交给 GITHUB_TOKEN。
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: 创建 Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 查找发布说明
+        id: notes
+        run: |
+          FILE=".github/release-notes/${GITHUB_REF_NAME}.md"
+          if [ -f "$FILE" ]; then
+            echo "found $FILE"
+            echo "path=$FILE" >> "$GITHUB_OUTPUT"
+          else
+            echo "未找到 $FILE，将使用自动生成的发布说明"
+          fi
+
+      - name: 创建 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ github.ref_name }}
+          body_path: ${{ steps.notes.outputs.path }}
+          generate_release_notes: ${{ steps.notes.outputs.path == '' }}
+          draft: false
+          prerelease: false
