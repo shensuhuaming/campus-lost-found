@@ -1,79 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1520px" height="972px" viewBox="0 0 1520 972">
-<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
-<rect width="1520" height="972" fill="#ffffff"/>
-<rect x="40.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
-<text x="135.0" y="42.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">管理员</text>
-<line x1="135.0" y1="64" x2="135.0" y2="960" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
-<rect x="290.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
-<text x="385.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">前端页面</text>
-<text x="385.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（Admin.vue）</text>
-<line x1="385.0" y1="64" x2="385.0" y2="960" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
-<rect x="540.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
-<text x="635.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">管理接口</text>
-<text x="635.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（AdminController）</text>
-<line x1="635.0" y1="64" x2="635.0" y2="960" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
-<rect x="790.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
-<text x="885.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">管理服务</text>
-<text x="885.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（AdminService）</text>
-<line x1="885.0" y1="64" x2="885.0" y2="960" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
-<rect x="1040.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
-<text x="1135.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">统计查询</text>
-<text x="1135.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（LostItemMapper）</text>
-<line x1="1135.0" y1="64" x2="1135.0" y2="960" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
-<rect x="1290.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
-<text x="1385.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">数据库</text>
-<text x="1385.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（MySQL 8）</text>
-<line x1="1385.0" y1="64" x2="1385.0" y2="960" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
-<rect x="130.0" y="132" width="10" height="708" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
-<rect x="380.0" y="132" width="10" height="708" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
-<rect x="630.0" y="187" width="10" height="583" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
-<rect x="880.0" y="257" width="10" height="443" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
-<rect x="1130.0" y="312" width="10" height="318" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
-<rect x="1380.0" y="522" width="10" height="108" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
-<path d="M 135.0,140 L 385.0,140" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
-<rect x="139.0" y="116" width="143.975" height="18" fill="#ffffff"/>
-<text x="143.0" y="125" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">1. 打开「数据统计」页签</text>
-<path d="M 385.0,195 L 635.0,195" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
-<rect x="389.0" y="157" width="161.8" height="32" fill="#ffffff"/>
-<text x="393.0" y="166" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">2. GET </text>
-<text x="393.0" y="180" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">/api/admin/stats?days=30</text>
-<path d="M 635.0,265 L 885.0,265" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
-<rect x="639.0" y="241" width="85.9" height="18" fill="#ffffff"/>
-<text x="643.0" y="250" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">3. stats(30)</text>
-<path d="M 885.0,320 L 1135.0,320" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
-<rect x="889.0" y="282" width="189.975" height="32" fill="#ffffff"/>
-<text x="893.0" y="291" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">4. 统计总数、待审核、已完成认领</text>
-<text x="893.0" y="305" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">（selectCount）</text>
-<path d="M 885.0,390 L 1135.0,390" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
-<rect x="889.0" y="352" width="154.9" height="32" fill="#ffffff"/>
-<text x="893.0" y="361" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">5. 按分类聚合（GROUP BY </text>
-<text x="893.0" y="375" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">category_id）</text>
-<path d="M 885.0,460 L 1135.0,460" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
-<rect x="889.0" y="422" width="175.025" height="32" fill="#ffffff"/>
-<text x="893.0" y="431" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">6. 按天聚合（GROUP BY DATE(</text>
-<text x="893.0" y="445" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">created_at)）</text>
-<path d="M 1135.0,530 L 1385.0,530" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
-<rect x="1139.0" y="506" width="130.75" height="18" fill="#ffffff"/>
-<text x="1143.0" y="515" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">7. 执行 6 条聚合 SQL</text>
-<path d="M 1385.0,585 L 1135.0,585" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
-<rect x="1139.0" y="561" width="86.47500000000001" height="18" fill="#ffffff"/>
-<text x="1143.0" y="570" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">8. 返回结果集</text>
-<path d="M 885.0,640 L 635.0,640" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
-<rect x="639.0" y="602" width="161.79999999999998" height="32" fill="#ffffff"/>
-<text x="643.0" y="611" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">9. 补零并计算归还率，返回 </text>
-<text x="643.0" y="625" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">StatsVO</text>
-<path d="M 635.0,710 L 385.0,710" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
-<rect x="389.0" y="672" width="192.275" height="32" fill="#ffffff"/>
-<text x="393.0" y="681" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">10. 返回指标、分类分布、30 天趋</text>
-<text x="393.0" y="695" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">势</text>
-<path d="M 385.0,780 L 135.0,780" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
-<rect x="139.0" y="742" width="190.55" height="32" fill="#ffffff"/>
-<text x="143.0" y="751" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">11. 渲染指标卡与 ECharts 饼图 </text>
-<text x="143.0" y="765" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">/ 折线图</text>
-<rect x="40" y="876" width="400" height="56" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.1" stroke-dasharray="5 4"/>
-<text x="48" y="889.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">权限：先 requireAdmin()，非管理员返回 2002。</text>
-<text x="48" y="903.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">归还率 = 已完成拾物 ÷ 已过审拾物。</text>
-<text x="48" y="917.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">趋势默认 30 天（7~30 可调），无数据的日期补 0。</text>
-<rect x="490" y="876" width="380" height="28" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.1" stroke-dasharray="5 4"/>
-<text x="498" y="889.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">图表按需加载：ECharts 单独分包，前台页面不加载。</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1134px" height="918px" viewBox="0 0 1134 918">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+<rect width="1134" height="918" fill="#fff"/>
+<rect x="44.0" y="26" width="96" height="34" rx="0" fill="#fff" stroke="#333" stroke-width="1.1"/>
+<text x="92.0" y="43" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#111" dominant-baseline="central">管理员</text>
+<path d="M 92.0,60 L 92.0,904" fill="none" stroke="#333" stroke-width="0.9" stroke-dasharray="5 4"/>
+<rect x="234.0" y="26" width="96" height="34" rx="0" fill="#fff" stroke="#333" stroke-width="1.1"/>
+<text x="282.0" y="43" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#111" dominant-baseline="central">前端页面</text>
+<path d="M 282.0,60 L 282.0,904" fill="none" stroke="#333" stroke-width="0.9" stroke-dasharray="5 4"/>
+<rect x="424.0" y="26" width="96" height="34" rx="0" fill="#fff" stroke="#333" stroke-width="1.1"/>
+<text x="472.0" y="43" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#111" dominant-baseline="central">管理接口</text>
+<path d="M 472.0,60 L 472.0,904" fill="none" stroke="#333" stroke-width="0.9" stroke-dasharray="5 4"/>
+<rect x="614.0" y="26" width="96" height="34" rx="0" fill="#fff" stroke="#333" stroke-width="1.1"/>
+<text x="662.0" y="43" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#111" dominant-baseline="central">管理服务</text>
+<path d="M 662.0,60 L 662.0,904" fill="none" stroke="#333" stroke-width="0.9" stroke-dasharray="5 4"/>
+<rect x="804.0" y="26" width="96" height="34" rx="0" fill="#fff" stroke="#333" stroke-width="1.1"/>
+<text x="852.0" y="43" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#111" dominant-baseline="central">统计查询</text>
+<path d="M 852.0,60 L 852.0,904" fill="none" stroke="#333" stroke-width="0.9" stroke-dasharray="5 4"/>
+<rect x="994.0" y="26" width="96" height="34" rx="0" fill="#fff" stroke="#333" stroke-width="1.1"/>
+<text x="1042.0" y="43" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#111" dominant-baseline="central">数据库</text>
+<path d="M 1042.0,60 L 1042.0,904" fill="none" stroke="#333" stroke-width="0.9" stroke-dasharray="5 4"/>
+<rect x="16" y="96" width="1102" height="586" rx="0" fill="none" stroke="#333" stroke-width="1.0"/>
+<path d="M 16,96 L 62,96 L 62,112 L 16,112 Z" fill="#fff" stroke="#333" stroke-width="1.0"/>
+<text x="39.0" y="104" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.5" fill="#111" dominant-baseline="central" font-weight="bold">alt</text>
+<text x="68" y="104" text-anchor="start" font-family="Microsoft YaHei,SimHei" font-size="10" fill="#111" dominant-baseline="central">[管理员：正常返回]</text>
+<rect x="88.0" y="124" width="8" height="546" fill="#fff" stroke="#333" stroke-width="0.9"/>
+<rect x="278.0" y="124" width="8" height="546" fill="#fff" stroke="#333" stroke-width="0.9"/>
+<rect x="468.0" y="172" width="8" height="450" fill="#fff" stroke="#333" stroke-width="0.9"/>
+<rect x="658.0" y="220" width="8" height="354" fill="#fff" stroke="#333" stroke-width="0.9"/>
+<rect x="848.0" y="268" width="8" height="258" fill="#fff" stroke="#333" stroke-width="0.9"/>
+<rect x="1038.0" y="418" width="8" height="108" fill="#fff" stroke="#333" stroke-width="0.9"/>
+<path d="M 92.0,140 L 282.0,140" fill="none" stroke="#333" stroke-width="1.0" marker-end="url(#a)"/>
+<rect x="131.5" y="124" width="111.0" height="16" fill="#fff"/>
+<text x="187.0" y="132" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">打开「数据统计」页签</text>
+<path d="M 282.0,188 L 472.0,188" fill="none" stroke="#333" stroke-width="1.0" marker-end="url(#a)"/>
+<rect x="293.15" y="172" width="167.70000000000002" height="16" fill="#fff"/>
+<text x="377.0" y="180" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">GET /api/admin/stats?days=30</text>
+<path d="M 472.0,236 L 662.0,236" fill="none" stroke="#333" stroke-width="1.0" marker-end="url(#a)"/>
+<rect x="486.5625" y="220" width="160.87500000000003" height="16" fill="#fff"/>
+<text x="567.0" y="228" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">requireAdmin() 后 stats(30)</text>
+<path d="M 662.0,284 L 852.0,284" fill="none" stroke="#333" stroke-width="1.0" marker-end="url(#a)"/>
+<rect x="680.5" y="268" width="153.0" height="16" fill="#fff"/>
+<text x="757.0" y="276" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">统计总数、待审核、已完成认领</text>
+<path d="M 662.0,332 L 852.0,332" fill="none" stroke="#333" stroke-width="1.0" marker-end="url(#a)"/>
+<rect x="659.5" y="316" width="195.0" height="16" fill="#fff"/>
+<text x="757.0" y="324" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">按分类聚合（GROUP BY category_id）</text>
+<path d="M 662.0,380 L 852.0,380" fill="none" stroke="#333" stroke-width="1.0" marker-end="url(#a)"/>
+<rect x="687.325" y="352" width="139.35000000000002" height="16" fill="#fff"/>
+<text x="757.0" y="360" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">按天聚合（GROUP BY DATE(</text>
+<rect x="716.9875" y="364" width="80.025" height="16" fill="#fff"/>
+<text x="757.0" y="372" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">created_at)）</text>
+<path d="M 852.0,434 L 1042.0,434" fill="none" stroke="#333" stroke-width="1.0" marker-end="url(#a)"/>
+<rect x="897.5375" y="418" width="98.925" height="16" fill="#fff"/>
+<text x="947.0" y="426" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">执行 6 条聚合 SQL</text>
+<path d="M 1042.0,482 L 852.0,482" fill="none" stroke="#333" stroke-width="1.0" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<rect x="928.25" y="466" width="37.5" height="16" fill="#fff"/>
+<text x="947.0" y="474" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">结果集</text>
+<path d="M 662.0,530 L 472.0,530" fill="none" stroke="#333" stroke-width="1.0" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<rect x="483.15" y="514" width="167.70000000000002" height="16" fill="#fff"/>
+<text x="567.0" y="522" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">补零并计算归还率，返回 StatsVO</text>
+<path d="M 472.0,578 L 282.0,578" fill="none" stroke="#333" stroke-width="1.0" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<rect x="304.175" y="562" width="145.65" height="16" fill="#fff"/>
+<text x="377.0" y="570" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">200 + 指标、分类分布、趋势</text>
+<path d="M 282.0,626 L 92.0,626" fill="none" stroke="#333" stroke-width="1.0" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<rect x="116.01249999999999" y="610" width="141.97500000000002" height="16" fill="#fff"/>
+<text x="187.0" y="618" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">渲染指标卡与 ECharts 图表</text>
+<rect x="16" y="698" width="1102" height="148" rx="0" fill="none" stroke="#333" stroke-width="1.0"/>
+<path d="M 16,698 L 62,698 L 62,714 L 16,714 Z" fill="#fff" stroke="#333" stroke-width="1.0"/>
+<text x="39.0" y="706" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="9.5" fill="#111" dominant-baseline="central" font-weight="bold">alt</text>
+<text x="68" y="706" text-anchor="start" font-family="Microsoft YaHei,SimHei" font-size="10" fill="#111" dominant-baseline="central">[非管理员：返回 2002]</text>
+<rect x="88.0" y="726" width="8" height="108" fill="#fff" stroke="#333" stroke-width="0.9"/>
+<rect x="468.0" y="726" width="8" height="108" fill="#fff" stroke="#333" stroke-width="0.9"/>
+<path d="M 92.0,742 L 472.0,742" fill="none" stroke="#333" stroke-width="1.0" marker-end="url(#a)"/>
+<rect x="221.25" y="726" width="121.5" height="16" fill="#fff"/>
+<text x="282.0" y="734" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">GET /api/admin/stats</text>
+<path d="M 472.0,790 L 92.0,790" fill="none" stroke="#333" stroke-width="1.0" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<rect x="235.6875" y="774" width="92.625" height="16" fill="#fff"/>
+<text x="282.0" y="782" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#111" dominant-baseline="central">403 {code:2002}</text>
+<rect x="18" y="866" width="1098" height="36" rx="3" fill="#fff" stroke="#999" stroke-width="0.9" stroke-dasharray="4 3"/>
+<text x="28" y="874" text-anchor="start" font-family="Microsoft YaHei,SimHei" font-size="9.5" fill="#111" dominant-baseline="central">归还率 = 已完成拾物 ÷ 已过审拾物；趋势默认 30 天（7~30 可调），无数据日期补 0。</text>
 </svg>
