@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2050px" height="1130px" viewBox="0 0 2050 1130">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="2050" height="1130" fill="#ffffff"/>
+<rect x="320" y="50" width="1530" height="960" fill="#FFFFFF" stroke="#333333" stroke-width="1.4"/>
+<text x="340" y="84" font-family="Microsoft YaHei,SimHei" font-size="17" font-weight="bold" fill="#000000" dominant-baseline="central">校园失物招领系统</text>
+<ellipse cx="460" cy="130" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="460" y="130" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">注册 / 登录</text>
+<ellipse cx="460" cy="250" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="460" y="250" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">浏览与检索信息</text>
+<ellipse cx="460" cy="370" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="460" y="370" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">查看信息详情</text>
+<ellipse cx="1000" cy="150" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000" y="150" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发布失物信息</text>
+<ellipse cx="1000" cy="262" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000" y="262" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">上传物品图片</text>
+<ellipse cx="1000" cy="374" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000" y="374" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">编辑 / 关闭信息</text>
+<ellipse cx="1000" cy="486" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000" y="486" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">推进寻物状态</text>
+<ellipse cx="1000" cy="598" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000" y="598" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发起认领</text>
+<ellipse cx="1000" cy="710" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000" y="710" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">发表留言</text>
+<ellipse cx="1000" cy="822" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000" y="822" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">查看站内消息</text>
+<ellipse cx="1000" cy="934" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1000" y="934" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">维护个人中心</text>
+<ellipse cx="1470" cy="150" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1470" y="150" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">审核信息</text>
+<ellipse cx="1470" cy="280" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1470" y="280" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">核验认领</text>
+<ellipse cx="1470" cy="410" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1470" y="410" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">下架违规信息</text>
+<ellipse cx="1470" cy="540" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1470" y="540" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">分类管理</text>
+<ellipse cx="1470" cy="670" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1470" y="670" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">用户管理</text>
+<ellipse cx="1470" cy="800" rx="130" ry="33" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1470" y="800" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">数据统计</text>
+<circle cx="120" cy="210" r="12" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<path d="M 120,222 L 120,252" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 98,234 L 142,234" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 120,252 L 102,278" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 120,252 L 138,278" stroke="#333333" stroke-width="1.2" fill="none"/>
+<text x="120" y="298" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">游客</text>
+<circle cx="120" cy="950" r="12" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<path d="M 120,962 L 120,992" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 98,974 L 142,974" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 120,992 L 102,1018" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 120,992 L 138,1018" stroke="#333333" stroke-width="1.2" fill="none"/>
+<text x="120" y="1038" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">学生用户</text>
+<circle cx="1930" cy="440" r="12" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<path d="M 1930,452 L 1930,482" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 1908,464 L 1952,464" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 1930,482 L 1912,508" stroke="#333333" stroke-width="1.2" fill="none"/>
+<path d="M 1930,482 L 1948,508" stroke="#333333" stroke-width="1.2" fill="none"/>
+<text x="1930" y="528" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="12" fill="#000000" dominant-baseline="central">管理员</text>
+<path d="M 185.83783701338228,218.09909960293305 L 330,130" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 191.93533483462733,242.32974082414597 L 330,250" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 184.04852759279498,264.59060326146306 L 330,370" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 177.52163219267396,948.273674000112 L 870,150" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 179.73976130981237,950.3428491382705 L 870,262" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 182.1332132309394,952.954545530626 L 870,374" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 184.63220070674964,956.238462292869 L 870,486" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 187.10152966646552,960.3155773158475 L 870,598" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 189.32582545789987,965.2528154532876 L 870,710" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 191.023844391149,970.997545258609 L 870,822" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 191.91454392891225,977.3221263600973 L 870,934" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 1861.7961841609679,438.8785480396887 L 1600,150" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 1854.8686325576505,446.98289719294337 L 1600,280" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 1848.8710623807017,461.49056463049 L 1600,410" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 1849.1725472399219,479.8549023903637 L 1600,540" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 1855.425062991557,493.8447841437537 L 1600,670" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 1862.2751864753955,501.5489257348948 L 1600,800" fill="none" stroke="#333333" stroke-width="1.0"/>
+<path d="M 1000,183 L 1000,229" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<text x="1078" y="206.0" text-anchor="start" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">«include»</text>
+<text x="1025.0" y="1085" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">注：学生用户继承游客的全部用例；「上传物品图片」被「发布失物信息」包含（«include»）。</text>
+</svg>

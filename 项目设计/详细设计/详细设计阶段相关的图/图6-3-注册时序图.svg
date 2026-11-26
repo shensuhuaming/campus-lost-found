@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520px" height="1051px" viewBox="0 0 1520 1051">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1520" height="1051" fill="#ffffff"/>
+<rect x="40.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="135.0" y="42.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">用户／浏览器</text>
+<line x1="135.0" y1="64" x2="135.0" y2="1039" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="290.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="385.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">前端页面</text>
+<text x="385.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（Vue）</text>
+<line x1="385.0" y1="64" x2="385.0" y2="1039" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="540.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="635.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">认证控制器</text>
+<text x="635.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（AuthController）</text>
+<line x1="635.0" y1="64" x2="635.0" y2="1039" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="790.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="885.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">认证服务</text>
+<text x="885.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（AuthService）</text>
+<line x1="885.0" y1="64" x2="885.0" y2="1039" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="1040.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1135.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">用户数据访问</text>
+<text x="1135.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（UserMapper）</text>
+<line x1="1135.0" y1="64" x2="1135.0" y2="1039" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="1290.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1385.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">数据库</text>
+<text x="1385.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（MySQL 8）</text>
+<line x1="1385.0" y1="64" x2="1385.0" y2="1039" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="130.0" y="132" width="10" height="773" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="380.0" y="132" width="10" height="773" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="630.0" y="187" width="10" height="663" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="880.0" y="257" width="10" height="523" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="1130.0" y="327" width="10" height="398" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="1380.0" y="382" width="10" height="343" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<path d="M 135.0,140 L 385.0,140" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="139.0" y="116" width="189.975" height="18" fill="#ffffff"/>
+<text x="143.0" y="125" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">1. 填写学号、昵称、手机号、密码</text>
+<path d="M 385.0,195 L 635.0,195" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="389.0" y="157" width="141.1" height="32" fill="#ffffff"/>
+<text x="393.0" y="166" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">2. 提交注册请求（POST </text>
+<text x="393.0" y="180" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">/api/auth/register）</text>
+<path d="M 635.0,265 L 885.0,265" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="639.0" y="227" width="189.4" height="32" fill="#ffffff"/>
+<text x="643.0" y="236" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">3. 参数校验通过，调用 register</text>
+<text x="643.0" y="250" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">(dto)</text>
+<path d="M 885.0,335 L 1135.0,335" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="889.0" y="311" width="143.975" height="18" fill="#ffffff"/>
+<text x="893.0" y="320" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">4. 按学号查询是否已注册</text>
+<path d="M 1135.0,390 L 1385.0,390" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="1139.0" y="352" width="187.10000000000002" height="32" fill="#ffffff"/>
+<text x="1143.0" y="361" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">5. SELECT * FROM user WHERE </text>
+<text x="1143.0" y="375" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">student_no = ?</text>
+<path d="M 1385.0,460 L 1135.0,460" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="1139.0" y="436" width="164.1" height="18" fill="#ffffff"/>
+<text x="1143.0" y="445" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">6. 返回记录（无则为 null）</text>
+<path d="M 1135.0,515 L 885.0,515" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="889.0" y="491" width="187.1" height="18" fill="#ffffff"/>
+<text x="893.0" y="500" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">7. 返回用户对象（无则为 null）</text>
+<path d="M 885.0,570 L 1135.0,570" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="889.0" y="546" width="147.425" height="18" fill="#ffffff"/>
+<text x="893.0" y="555" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">8. 写入新用户（insert）</text>
+<path d="M 1135.0,625 L 1385.0,625" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="1139.0" y="601" width="161.8" height="18" fill="#ffffff"/>
+<text x="1143.0" y="610" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">9. INSERT INTO user(...)</text>
+<path d="M 1385.0,680 L 1135.0,680" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="1139.0" y="656" width="93.95" height="18" fill="#ffffff"/>
+<text x="1143.0" y="665" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">10. 影响行数 1</text>
+<path d="M 885.0,735 L 635.0,735" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="639.0" y="711" width="111.77499999999999" height="18" fill="#ffffff"/>
+<text x="643.0" y="720" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">11. 返回新用户 id</text>
+<path d="M 635.0,790 L 385.0,790" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="389.0" y="752" width="172.15" height="32" fill="#ffffff"/>
+<text x="393.0" y="761" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">12. 返回 Result{code:200, </text>
+<text x="393.0" y="775" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">data:{userId}}</text>
+<path d="M 385.0,860 L 135.0,860" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="139.0" y="836" width="184.79999999999998" height="18" fill="#ffffff"/>
+<text x="143.0" y="845" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">13. 提示注册成功，切换到登录页</text>
+<rect x="40" y="941" width="330" height="70" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.1" stroke-dasharray="5 4"/>
+<text x="48" y="954.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">校验（前端 + 后端双重）：</text>
+<text x="48" y="968.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">　学号 6~12 位数字、昵称 2~12 字</text>
+<text x="48" y="982.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">　手机号 11 位、密码 ≥6 位含字母数字</text>
+<text x="48" y="996.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">　两次密码一致</text>
+<rect x="490" y="941" width="400" height="42" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.1" stroke-dasharray="5 4"/>
+<text x="498" y="954.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">业务规则：学号唯一，已存在返回 1002。</text>
+<text x="498" y="968.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">密码经 BCrypt(cost=10) 加密后存储，不保存明文。</text>
+</svg>

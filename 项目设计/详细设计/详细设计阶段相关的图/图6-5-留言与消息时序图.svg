@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1770px" height="1107px" viewBox="0 0 1770 1107">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1770" height="1107" fill="#ffffff"/>
+<rect x="40.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="135.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">学生 B</text>
+<text x="135.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（留言人）</text>
+<line x1="135.0" y1="64" x2="135.0" y2="1095" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="290.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="385.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">前端页面</text>
+<text x="385.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（Vue）</text>
+<line x1="385.0" y1="64" x2="385.0" y2="1095" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="540.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="635.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">留言接口</text>
+<text x="635.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（CommentController）</text>
+<line x1="635.0" y1="64" x2="635.0" y2="1095" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="790.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="885.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">留言服务</text>
+<text x="885.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（CommentService）</text>
+<line x1="885.0" y1="64" x2="885.0" y2="1095" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="1040.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1135.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">消息服务</text>
+<text x="1135.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（MessageService）</text>
+<line x1="1135.0" y1="64" x2="1135.0" y2="1095" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="1290.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1385.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">数据库</text>
+<text x="1385.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（MySQL 8）</text>
+<line x1="1385.0" y1="64" x2="1385.0" y2="1095" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="1540.0" y="20" width="190" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.2"/>
+<text x="1635.0" y="34.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">学生 A</text>
+<text x="1635.0" y="49.5" text-anchor="middle" font-family="Microsoft YaHei,SimHei" font-size="11" fill="#000000" dominant-baseline="central">（发布者）</text>
+<line x1="1635.0" y1="64" x2="1635.0" y2="1095" stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="130.0" y="132" width="10" height="493" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="380.0" y="132" width="10" height="843" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="630.0" y="187" width="10" height="383" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="880.0" y="242" width="10" height="273" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="1380.0" y="297" width="10" height="608" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="1130.0" y="407" width="10" height="273" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<rect x="1630.0" y="682" width="10" height="293" fill="#F4F4F4" stroke="#333333" stroke-width="0.9"/>
+<path d="M 135.0,140 L 385.0,140" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="139.0" y="116" width="170.425" height="18" fill="#ffffff"/>
+<text x="143.0" y="125" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">1. 输入留言内容（1~200 字）</text>
+<path d="M 385.0,195 L 635.0,195" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="389.0" y="171" width="142.82500000000002" height="18" fill="#ffffff"/>
+<text x="393.0" y="180" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">2. POST /api/comments</text>
+<path d="M 635.0,250 L 885.0,250" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="639.0" y="226" width="98.55000000000001" height="18" fill="#ffffff"/>
+<text x="643.0" y="235" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">3. create(dto)</text>
+<path d="M 885.0,305 L 1385.0,305" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="889.0" y="281" width="170.425" height="18" fill="#ffffff"/>
+<text x="893.0" y="290" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">4. 校验物品已过审（SELECT）</text>
+<path d="M 885.0,360 L 1385.0,360" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="889.0" y="336" width="117.52500000000002" height="18" fill="#ffffff"/>
+<text x="893.0" y="345" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">5. INSERT comment</text>
+<path d="M 885.0,415 L 1135.0,415" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="889.0" y="391" width="178.475" height="18" fill="#ffffff"/>
+<text x="893.0" y="400" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">6. push(A, B, type=2, 摘要)</text>
+<path d="M 885.0,470 L 635.0,470" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="639.0" y="446" width="153.175" height="18" fill="#ffffff"/>
+<text x="643.0" y="455" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">7. 返回 {id, createdAt}</text>
+<path d="M 635.0,525 L 385.0,525" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="389.0" y="501" width="77.275" height="18" fill="#ffffff"/>
+<text x="393.0" y="510" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">8. 返回 200</text>
+<path d="M 385.0,580 L 135.0,580" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="139.0" y="556" width="97.97500000000001" height="18" fill="#ffffff"/>
+<text x="143.0" y="565" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">9. 提示留言成功</text>
+<path d="M 1135.0,635 L 1385.0,635" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="1139.0" y="611" width="187.675" height="18" fill="#ffffff"/>
+<text x="1143.0" y="620" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">10. 事务提交后 INSERT message</text>
+<path d="M 1635.0,690 L 385.0,690" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="389.0" y="652" width="160.65" height="32" fill="#ffffff"/>
+<text x="393.0" y="661" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">11. 打开消息中心（GET </text>
+<text x="393.0" y="675" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">/api/messages?isRead=0）</text>
+<path d="M 385.0,760 L 1385.0,760" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="389.0" y="722" width="142.82500000000002" height="32" fill="#ffffff"/>
+<text x="393.0" y="731" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">12. SELECT ... WHERE </text>
+<text x="393.0" y="745" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">to_user_id = A</text>
+<path d="M 385.0,830 L 1385.0,830" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="389.0" y="778" width="179.62500000000003" height="46" fill="#ffffff"/>
+<text x="393.0" y="787" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">13. PUT </text>
+<text x="393.0" y="801" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">/api/messages/{id}/read → </text>
+<text x="393.0" y="815" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">is_read=1</text>
+<path d="M 385.0,915 L 1635.0,915" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="389.0" y="877" width="171.57500000000002" height="32" fill="#ffffff"/>
+<text x="393.0" y="886" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">14. 未读角标 -1（60 秒轮询 </text>
+<text x="393.0" y="900" font-family="Microsoft YaHei,SimHei" font-size="11.5" fill="#000000" dominant-baseline="central">unread-count）</text>
+<rect x="40" y="1011" width="380" height="42" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.1" stroke-dasharray="5 4"/>
+<text x="48" y="1024.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">留言规则：物品须存在且已过审（否则 2004）；</text>
+<text x="48" y="1038.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">自己给自己留言不产生消息通知。</text>
+<rect x="490" y="1011" width="470" height="56" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.1" stroke-dasharray="5 4"/>
+<text x="498" y="1024.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">消息推送（评审 P0-6）：事务内注册 afterCommit 回调，</text>
+<text x="498" y="1038.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">提交成功后才落库；失败只记日志，不回滚主业务。</text>
+<text x="498" y="1052.0" font-family="Microsoft YaHei,SimHei" font-size="10.5" fill="#000000" dominant-baseline="central">from_user_id=0 表示系统，其余显示发送人昵称。</text>
+</svg>
